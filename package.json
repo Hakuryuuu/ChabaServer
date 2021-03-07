@@ -1,0 +1,37 @@
+{
+  "name": "demo-line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "web": "node app.js",
+  "dependencies": {
+    "aimlinterpreter": "^0.1.7",
+    "aimlparser": "^1.0.5",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "csv-parser": "^2.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "form-data": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.15",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzintel/demo-line.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benzintel/demo-line/issues"
+  },
+  "homepage": "https://github.com/benzintel/demo-line#readme"
+}
