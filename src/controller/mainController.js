@@ -15,7 +15,7 @@ exports.main = async function (req, res) {
     }
 
     // Test Return 
-    body.push(serviceLine.messageText(`${msg} - UUID ${uuid}`));
+   
 
     if (body.length > 0) {
         serviceLine.replyLine(reply_token, body);
