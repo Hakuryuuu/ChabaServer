@@ -4,7 +4,7 @@ const serviceLine = new sendLine();
 exports.main = async function (req, res) {
     console.log(req.body.events[0].beacon);
     let reply_token = req.body.events[0].replyToken;
-    let uuid = req.body.events[0].source.userId;
+    let beacon = req.body.events[0].beacon;
     let msg = '';
     let body = [];
 
@@ -16,7 +16,7 @@ exports.main = async function (req, res) {
 
 
     // Test Return 
-    body.push(serviceLine.messageText(`${msg}`));
+    body.push(serviceLine.messageText(`${msg} - HWID ${beacon}`));
 
     if (body.length > 0) {
         serviceLine.replyLine(reply_token, body);
