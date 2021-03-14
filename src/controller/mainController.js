@@ -9,7 +9,7 @@ exports.main = async function (req, res) {
     let body = [];
 
     if (req.body.events[0].type == 'beacon') {
-        msg = 'ที่นี่ 708 ค่ะ';
+        msg = 'ที่นี่ปราสาทศีขรภูมิ';
     } else {
         msg = (req.body.events[0] && req.body.events[0].message.text) ? req.body.events[0].message.text : '';
     }
