@@ -8,7 +8,7 @@ exports.main = async function (req, res) {
     let msg = '';
     let body = [];
 
-    if (req.body.events[0].type == 'beacon') {
+    if (req.body.events[0].beacon == '014ad71cfd') {
         msg = 'ที่นี่ปราสาทศีขรภูมิ';
     } else {
         msg = (req.body.events[0] && req.body.events[0].message.text) ? req.body.events[0].message.text : '';
@@ -16,7 +16,7 @@ exports.main = async function (req, res) {
 
 
     // Test Return 
-    body.push(serviceLine.messageText(`${msg} - HWID ${beacon}`));
+    body.push(serviceLine.messageText(`${msg}`));
 
     if (body.length > 0) {
         serviceLine.replyLine(reply_token, body);
