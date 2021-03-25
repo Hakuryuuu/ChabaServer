@@ -38,6 +38,14 @@ class sendLine {
 
         return msg;
     }
+
+    // messageflex(alttext, Objectcontent){
+    //     const msg = {
+    //         type: 'flex',
+    //         altText: alttext,
+    //         contents: Objectcontent
+    //     }
+    // }
 }
 
 module.exports = sendLine;

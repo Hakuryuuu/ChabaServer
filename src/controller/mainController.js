@@ -9,49 +9,65 @@ exports.main = async function (req, res) {
     let getHwid = req.body.events[0].beacon.hwid;
     let locationLists =
     {
-        "014ad71cfd": {
-            "type": "template",
-            "altText": "this is a carousel template",
-            "template": {
-              "type": "carousel",
-              "columns": [
-                {
-                  "title": "ร้านอาหาร",
-                  "text": "ขัอมูล",
-                  "actions": [
-                    {
-                      "type": "uri",
-                      "label": "ลิ้งค์",
-                      "uri": "https://www.wongnai.com/listings/restaurants-surin?fbclid=IwAR1JqDlW2pDdUFcyakonXq7oyKFyZtAxeBeByGq3pYM2mYyIJO03Fzuc1Zk"
-                    },
-                    {
-                      "type": "uri",
-                      "label": "เฮียเกี๊ยก เย็นตาโฟ ",
-                      "uri": "https://www.wongnai.com/restaurants/17019FT-เฮียเกี๊ยก-เย็นตาโฟ"
-                    }
-                  ],
-                  "imageBackgroundColor": "#FFFFFF"
-                },
-                {
-                  "title": "โรงแรม",
-                  "text": "ข้อมูล",
-                  "actions": [
-                    {
-                      "type": "uri",
-                      "label": "ลิ้งค์",
-                      "uri": "https://www.agoda.com/th-th/pages/agoda/default/DestinationSearchResult.aspx?city=17765&site_id=1891451&tag=2c232039-1efe-18d6-7476-309fc9700870&device=c&network=g&adid=492681439083&rand=16189908099684075239&expid=&adpos=&aud=kwd-300128420814&gclid=CjwKCAjwxuuCBhATEiwAIIIz0Qg_gew2J70frSS3xDfkNvj6yTRs4yOKKQRPeopRDt6TFaA5ibft6RoCw6oQAvD_BwE"
-                    },
-                    {
-                      "type": "uri",
-                      "label": "The wood",
-                      "uri": "https://www.agoda.com/th-th/the-wood-h13753342/hotel/surin-th.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891451&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2021-04-2&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=THB&isFreeOccSearch=false&tag=2c232039-1efe-18d6-7476-309fc9700870&tspTypes=1,16&los=1&searchrequestid=5ed94ef2-0f52-48c6-a2b2-960b77a4fdd2&tabbed=true"
-                    }
-                  ],
-                  "imageBackgroundColor": "#FFFFFF"
-                }
-              ]
-            }
-          },
+        "014ad71cfd":{
+          "type": "template",
+          "altText": "this is a carousel template",
+          "template": {
+            "type": "carousel",
+            "imageSize": "contain",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
+                "title": "ปราสาทศีขรภูมิ สุรินทร์",
+                "text": "ปราสาทศีขรภูมิ หรือ ปราสาทระแงง ตั้งอยู่ อำเภอศีขรภูมิ จังหว",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "อ่านเพิ่มเติม",
+                    "uri": "https://www.paiduaykan.com/travel/ปราสาทศรีขรภูมิ"
+                  }
+                ],
+                "imageBackgroundColor": "#FFFFFF"
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/cf218a07ae7756a3e2a2535d2b8531e2.jpg",
+                "title": "สินค้าขึ้นชื่อของที่นี่",
+                "text": "กาละแมสดศีขรภูมิ",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "อ่านเพิ่มเติม",
+                    "uri": "http://i-san.tourismthailand.org/867/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
+                "title": "ร้านอาหาร ใกล้ปราสาทศีขรภูมิ ",
+                "text": "อร่อยถูกปากแน่นอน",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://www.wongnai.com/businesses?nearBusinessId=336962&rerank=false&domain=1"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/9fde11ac5bec5ce1ac2e6404ccc356ac.jpg",
+                "title": "ที่พักใกล้ปราสาทศีขรภูมิ",
+                "text": "มีให้เลือกมากมาย ตอบโจทย์ความต้องการของลูกค้าทุกกลุ่ม",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เลือกที่พัก",
+                    "uri": "https://www.wongnai.com/hotels?spatialInfo.radius=31.0686&nearBusinessId=336962&rerank=false&domain=3"
+                  }
+                ]
+              }
+            ]
+          }
+        },
 
         "014b374550": "ที่นี่วนอุทยานพนมสวาย"
     };
