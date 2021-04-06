@@ -101,25 +101,7 @@ exports.main = async function (req, res) {
         serviceLine.replyLine(reply_token, body);
     }
 
-    exports.firestore = async(req,res) => {
-  var admin = require("firebase-admin");
-
-var serviceAccount = require("../../serviceAccountKey.json");
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
-  
-  const db = admin.firestore();
-  
-  const docRef = db.collection('users').doc('alovelace');
-  
-  await docRef.set({
-    first: 'Ada',
-    last: 'Lovelace',
-    born: 1815
-  });
-}
+ 
 
 var admin = require("firebase-admin");
 
