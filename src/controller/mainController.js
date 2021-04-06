@@ -2,11 +2,18 @@ const sendLine = require('../constant/sendLine');
 const serviceLine = new sendLine();
 
 exports.main = async function (req, res) {
+  
     console.log(req.body.events[0]);
     let reply_token = req.body.events[0].replyToken;
     let msg = '';
     let body = [];
     let getHwid = req.body.events[0].beacon.hwid;
+    let locationHwid = 
+    {
+      "014ad71cfd":"ปราสาทศีขรภูมิ",
+      "014b374550":"ที่นี่วนอุทยานพนมสวาย"
+    }
+
     let locationLists =
     {
         "014ad71cfd":{
@@ -94,5 +101,49 @@ exports.main = async function (req, res) {
         serviceLine.replyLine(reply_token, body);
     }
 
+    exports.firestore = async(req,res) => {
+  var admin = require("firebase-admin");
+
+var serviceAccount = require("../../serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+  
+  const db = admin.firestore();
+  
+  const docRef = db.collection('users').doc('alovelace');
+  
+  await docRef.set({
+    first: 'Ada',
+    last: 'Lovelace',
+    born: 1815
+  });
+}
+
+var admin = require("firebase-admin");
+
+var serviceAccount = require("../../serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+  
+  const db = admin.firestore();
+  
+  const docRef = db.collection('users_access');
+  
+  await docRef.set({
+    UserID: req.body.events[0].source.userId,
+    HWID: getHwid,
+    Locations: locationHwid.getHwid,
+    date_time: new Date().toLocaleString()
+  });
+
+
     res.sendStatus(200); 
 }; 
+
+
+
+

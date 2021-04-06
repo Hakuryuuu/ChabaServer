@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "chaba-test-firestore"
+  }
+}
