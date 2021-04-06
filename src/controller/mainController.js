@@ -130,12 +130,16 @@ admin.initializeApp({
   const docRef = db.collection('users_access');
   
   try {
-    await docRef.add({
+
+    let CH = await docRef.add({
+      
       UserID: req.body.events[0].source.userId,
       HWID: getHwid,
       Locations: locationHwid[getHwid],
       date_time: moment().tz("Asia/Bangkok").format()
     });
+
+    console.log(CH)
   
   } catch (error) {
     console.log(error);
