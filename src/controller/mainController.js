@@ -148,7 +148,7 @@ admin.initializeApp({
   await docRef.add({
     UserID: req.body.events[0].source.userId,
     HWID: getHwid,
-    Locations: locationHwid.getHwid,
+    Locations: locationHwid[getHwid],
     date_time: new Date().toLocaleString()
   });
 
