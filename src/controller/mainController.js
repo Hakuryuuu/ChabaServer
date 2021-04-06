@@ -150,7 +150,7 @@ admin.initializeApp({
       UserID: req.body.events[0].source.userId,
       HWID: getHwid,
       Locations: locationHwid[getHwid],
-      date_time: new Date().toLocaleString(Asia/Bangkok).format('ha z')
+      date_time: new Date().toLocaleString('Asia/Bangkok').format('ha z')
     });
   
   } catch (error) {
