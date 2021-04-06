@@ -123,6 +123,8 @@ admin.initializeApp({
 
 var admin = require("firebase-admin");
 
+var moment = require('moment-timezone');
+
 var serviceAccount = {
   "type": "service_account",
   "project_id": "chaba-test-firestore",
@@ -150,7 +152,7 @@ admin.initializeApp({
       UserID: req.body.events[0].source.userId,
       HWID: getHwid,
       Locations: locationHwid[getHwid],
-      date_time: new Date().jun.tz('Asia/Bangkok').format('ha z')
+      date_time: moment().tz("Asia/Bangkok").format()
     });
   
   } catch (error) {
