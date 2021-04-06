@@ -145,13 +145,18 @@ admin.initializeApp({
   
   const docRef = db.collection('users_access');
   
-  await docRef.add({
-    UserID: req.body.events[0].source.userId,
-    HWID: getHwid,
-    Locations: locationHwid[getHwid],
-    date_time: new Date().toLocaleString()
-  });
-
+  try {
+    await docRef.add({
+      UserID: req.body.events[0].source.userId,
+      HWID: getHwid,
+      Locations: locationHwid[getHwid],
+      date_time: new Date().toLocaleString()
+    });
+  
+  } catch (error) {
+    console.log(error);
+  }
+  
 
     res.sendStatus(200); 
 }; 
