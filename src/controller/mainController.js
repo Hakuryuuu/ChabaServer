@@ -145,7 +145,7 @@ admin.initializeApp({
   
   const docRef = db.collection('users_access');
   
-  await docRef.set({
+  await docRef.add({
     UserID: req.body.events[0].source.userId,
     HWID: getHwid,
     Locations: locationHwid.getHwid,
