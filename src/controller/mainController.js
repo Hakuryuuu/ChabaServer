@@ -76,7 +76,53 @@ exports.main = async function (req, res) {
           }
         },
 
-        "014b374550": "ที่นี่วนอุทยานพนมสวาย"
+        "014b374550": {
+          "type": "template",
+          "altText": "this is a carousel template",
+          "template": {
+            "type": "carousel",
+            "imageSize": "contain",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/2838189a6e09cee978ea9098fc04cd93.jpg",
+                "title": "วนอุทยานแห่งชาติพนมสวายสุรินทร์",
+                "text": "ตั้งอยู่ที่ตำบลนาบัว อำเภอเมือง จังหวัดสุรินทร์ เป็นภูเขาบนท",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://www.paiduaykan.com/travel/อุทยานพนมสวาย"
+                  }
+                ],
+                "imageBackgroundColor": "#FFFFFF"
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/6ddc49423d01382de6d5bd4c8afb87ba.jpg",
+                "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "ร้านอาหารที่ต้องเเวะ ร้านสวนเรา และอีกมากมาย",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://www.wongnai.com/businesses?page.number=2&nearBusinessId=341052&rerank=false&domain=1"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/04/06/A07OJV.jpg",
+                "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "มีให้เลือกมากมาย ตอบโจทย์ความต้องการของลูกค้าทุกกลุ่ม",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://www.choowap.com/th/hotels-near-วนอุทยานพนมสวาย/3647"
+                  }
+                ]
+              }
+            ]
+          }
+        }
     };
 
     Object.keys(locationLists).map( hwid => {
