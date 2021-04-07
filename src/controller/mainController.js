@@ -18,7 +18,7 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
             "imageSize": "contain",
@@ -76,9 +76,9 @@ exports.main = async function (req, res) {
           }
         },
 
-        "014b374550": {
+        "014b374550":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "วนอุทยานแห่งชาติพนมสวายสุรินทร์",
           "template": {
             "type": "carousel",
             "imageSize": "contain",
