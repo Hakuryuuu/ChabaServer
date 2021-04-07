@@ -177,7 +177,7 @@ admin.initializeApp({
   
   try {
 
-    let CH = await docRef.add({
+    let CH = await docRef.collection({
       
       UserID: req.body.events[0].source.userId,
       HWID: getHwid,
