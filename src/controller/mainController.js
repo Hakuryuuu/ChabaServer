@@ -32,6 +32,11 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "อ่านเพิ่มเติม",
                     "uri": "https://www.paiduaykan.com/travel/ปราสาทศรีขรภูมิ"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สถานที่อื่นๆ",
+                    "text": "สถานที่อื่นๆ"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
@@ -45,6 +50,11 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "อ่านเพิ่มเติม",
                     "uri": "http://i-san.tourismthailand.org/867/"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สินค้าเพิ่มเติม",
+                    "text": "สินค้าเพิ่มเติม"
                   }
                 ]
               },
@@ -55,8 +65,13 @@ exports.main = async function (req, res) {
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เพิ่มเติม",
+                    "label": "ร้านเเนะนำ",
                     "uri": "https://www.wongnai.com/businesses?nearBusinessId=336962&rerank=false&domain=1"
+                  },
+                  {
+                    "type": "message",
+                    "label": "ร้านอาหารเพิ่มเติม",
+                    "text": "ร้านอาหารเพิ่มเติม"
                   }
                 ]
               },
@@ -69,6 +84,11 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "เลือกที่พัก",
                     "uri": "https://www.wongnai.com/hotels?spatialInfo.radius=31.0686&nearBusinessId=336962&rerank=false&domain=3"
+                  },
+                  {
+                    "type": "message",
+                    "label": "ที่พักอื่นๆ",
+                    "text": "ที่พักอื่นๆ"
                   }
                 ]
               }
@@ -177,7 +197,7 @@ admin.initializeApp({
   
   try {
 
-    let CH = await docRef.collection({
+    let CH = await docRef.add({
       
       UserID: req.body.events[0].source.userId,
       HWID: getHwid,
@@ -188,10 +208,11 @@ admin.initializeApp({
     console.log(CH)
   
   } catch (error) {
+
     console.log(error);
+
   }
   
-
     res.sendStatus(200); 
 }; 
 
