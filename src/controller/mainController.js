@@ -98,7 +98,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง"
+                    "text": "สถานที่ใกล้เคียง2"
                   }
                 ]
               },
