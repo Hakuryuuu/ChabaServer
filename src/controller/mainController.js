@@ -35,11 +35,10 @@ exports.main = async function (req, res) {
                   },
                   {
                     "type": "message",
-                    "label": "สถานที่อื่นๆ",
-                    "text": "สถานที่อื่นๆ"
+                    "label": "สถานที่ใกล้เคียง",
+                    "text": "สถานที่ใกล้เคียง"
                   }
-                ],
-                "imageBackgroundColor": "#FFFFFF"
+                ]
               },
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/cf218a07ae7756a3e2a2535d2b8531e2.jpg",
@@ -48,47 +47,30 @@ exports.main = async function (req, res) {
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
+                    "label": "รายละเอียด",
                     "uri": "http://i-san.tourismthailand.org/867/"
                   },
                   {
                     "type": "message",
-                    "label": "สินค้าเพิ่มเติม",
-                    "text": "สินค้าเพิ่มเติม"
+                    "label": "สินค้าอื่นๆ",
+                    "text": "สินค้าอื่นๆ"
                   }
                 ]
               },
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
-                "title": "ร้านอาหาร ใกล้ปราสาทศีขรภูมิ ",
-                "text": "อร่อยถูกปากแน่นอน",
+                "title": "Service",
+                "text": "บริการร้านอาหาร และ ที่พัก",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ร้านเเนะนำ",
-                    "uri": "https://www.wongnai.com/businesses?nearBusinessId=336962&rerank=false&domain=1"
-                  },
-                  {
-                    "type": "message",
-                    "label": "ร้านอาหารเพิ่มเติม",
-                    "text": "ร้านอาหารเพิ่มเติม"
-                  }
-                ]
-              },
-              {
-                "thumbnailImageUrl": "https://www.img.in.th/images/9fde11ac5bec5ce1ac2e6404ccc356ac.jpg",
-                "title": "ที่พักใกล้ปราสาทศีขรภูมิ",
-                "text": "มีให้เลือกมากมาย ตอบโจทย์ความต้องการของลูกค้าทุกกลุ่ม",
-                "actions": [
-                  {
-                    "type": "uri",
-                    "label": "เลือกที่พัก",
+                    "label": "เลือก",
                     "uri": "https://www.wongnai.com/hotels?spatialInfo.radius=31.0686&nearBusinessId=336962&rerank=false&domain=3"
                   },
                   {
                     "type": "message",
-                    "label": "ที่พักอื่นๆ",
-                    "text": "ที่พักอื่นๆ"
+                    "label": "เลือกดูเพิ่มเติม",
+                    "text": "เลือกดูเพิ่มเติม"
                   }
                 ]
               }
