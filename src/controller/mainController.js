@@ -11,7 +11,7 @@ exports.main = async function (req, res) {
     let locationHwid = 
     {
       "014ad71cfd":"ปราสาทศีขรภูมิ",
-      "014b374550":"ที่นี่วนอุทยานพนมสวาย"
+      "014b374550":"หมู่บ้านทอผ้าไหมบ้านท่าสว่าง"
     }
 
     let locationLists =
@@ -80,45 +80,59 @@ exports.main = async function (req, res) {
 
         "014b374550":{
           "type": "template",
-          "altText": "วนอุทยานแห่งชาติพนมสวายสุรินทร์",
+          "altText": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
           "template": {
             "type": "carousel",
-            "imageSize": "contain",
+            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/2838189a6e09cee978ea9098fc04cd93.jpg",
-                "title": "วนอุทยานแห่งชาติพนมสวายสุรินทร์",
-                "text": "ตั้งอยู่ที่ตำบลนาบัว อำเภอเมือง จังหวัดสุรินทร์ เป็นภูเขาบนท",
+                "thumbnailImageUrl": "https://www.img.in.th/images/9f87dc7d6ff015bc2750a135109af0d6.jpg",
+                "title": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
+                "text": "ตั้งอยู่ในอำเภอเมือง จังหวัดสุรินทร์ เป็นหมู่บ้านท่องเที่ยวเ",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://www.paiduaykan.com/travel/อุทยานพนมสวาย"
-                  }
-                ],
-                "imageBackgroundColor": "#FFFFFF"
-              },
-              {
-                "thumbnailImageUrl": "https://www.img.in.th/images/6ddc49423d01382de6d5bd4c8afb87ba.jpg",
-                "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
-                "text": "ร้านอาหารที่ต้องเเวะ ร้านสวนเรา และอีกมากมาย",
-                "actions": [
+                    "label": "อ่านเพิ่มเติม",
+                    "uri": "https://www.paiduaykan.com/travel/บ้านท่าสว่าง"
+                  },
                   {
-                    "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://www.wongnai.com/businesses?page.number=2&nearBusinessId=341052&rerank=false&domain=1"
+                    "type": "message",
+                    "label": "สถานที่ใกล้เคียง",
+                    "text": "สถานที่ใกล้เคียง"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/04/06/A07OJV.jpg",
-                "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
-                "text": "มีให้เลือกมากมาย ตอบโจทย์ความต้องการของลูกค้าทุกกลุ่ม",
+                "thumbnailImageUrl": "https://www.img.in.th/images/4b88dc05f9bbd8ff96f657e74f526099.jpg",
+                "title": "ผ้าไหมยกทอง",
+                "text": "ผ้าไหมยกทองโบราณบ้านท่าสว่างเป็นสินค้าประจำจังหวัดชื่อดังของ",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://www.choowap.com/th/hotels-near-วนอุทยานพนมสวาย/3647"
+                    "label": "เลือกสินค้า",
+                    "uri": "https://sites.google.com/site/khwampenmakhxngsurinthr/hmuban-thx-pha-him-ban-tha-swang"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สินค้าอื่นๆ",
+                    "text": "สินค้าอื่นๆ"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/d6125fcd738de77ca2747cc8ea6f59ba.jpg",
+                "title": "Service",
+                "text": "ร้านอาหาร และ ที่พัก",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เลือก",
+                    "uri": "https://th.tripadvisor.com/RestaurantsNear-g303923-d4322931-Ban_Tha_Sawang_Silk_Weaving_Village-Surin_Surin_Province.html"
+                  },
+                  {
+                    "type": "message",
+                    "label": "เลือกเพิ่มเติม",
+                    "text": "เลือกเพิ่มเติม"
                   }
                 ]
               }
