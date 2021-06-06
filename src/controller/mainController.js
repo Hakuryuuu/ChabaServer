@@ -53,7 +53,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ2"
+                    "text": "สินค้าอื่นๆ"
                   }
                 ]
               },
@@ -70,7 +70,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "เลือกดูเพิ่มเติม",
-                    "text": "เลือกดูเพิ่มเติม2"
+                    "text": "เลือกดูเพิ่มเติม"
                   }
                 ]
               }
@@ -115,7 +115,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
+                    "text": "สินค้าอื่นๆ2"
                   }
                 ]
               },
@@ -132,7 +132,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "เลือกเพิ่มเติม",
-                    "text": "เลือกเพิ่มเติม"
+                    "text": "เลือกเพิ่มเติม2"
                   }
                 ]
               }
