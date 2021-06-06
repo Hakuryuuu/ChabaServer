@@ -53,7 +53,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
+                    "text": "สินค้าอื่นๆ2"
                   }
                 ]
               },
@@ -70,7 +70,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "เลือกดูเพิ่มเติม",
-                    "text": "เลือกดูเพิ่มเติม"
+                    "text": "เลือกดูเพิ่มเติม2"
                   }
                 ]
               }
