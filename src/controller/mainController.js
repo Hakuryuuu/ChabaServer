@@ -21,7 +21,7 @@ exports.main = async function (req, res) {
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
-            "imageSize": "contain",
+            "imageSize": "cover",
             "columns": [
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
@@ -31,7 +31,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "อ่านเพิ่มเติม",
-                    "uri": "https://www.paiduaykan.com/travel/ปราสาทศรีขรภูมิ"
+                    "uri": "https://host-chaba.web.app/locationone"
                   },
                   {
                     "type": "message",
@@ -41,14 +41,14 @@ exports.main = async function (req, res) {
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/cf218a07ae7756a3e2a2535d2b8531e2.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/260cc53f99cb82e8d68db1d64d9197da.png",
                 "title": "สินค้าขึ้นชื่อของที่นี่",
-                "text": "กาละแมสดศีขรภูมิ",
+                "text": "ผ้าไหมลายหนอนทอง",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "รายละเอียด",
-                    "uri": "http://i-san.tourismthailand.org/867/"
+                    "uri": "https://host-chaba.web.app/Productone"
                   },
                   {
                     "type": "message",
@@ -65,7 +65,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เลือก",
-                    "uri": "https://www.wongnai.com/hotels?spatialInfo.radius=31.0686&nearBusinessId=336962&rerank=false&domain=3"
+                    "uri": "https://host-chaba.web.app/serviceone"
                   },
                   {
                     "type": "message",
@@ -76,6 +76,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         },
 
         "014b374550":{
@@ -93,7 +94,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "อ่านเพิ่มเติม",
-                    "uri": "https://www.paiduaykan.com/travel/บ้านท่าสว่าง"
+                    "uri": "https://host-chaba.web.app/locationeight"
                   },
                   {
                     "type": "message",
@@ -110,7 +111,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เลือกสินค้า",
-                    "uri": "https://sites.google.com/site/khwampenmakhxngsurinthr/hmuban-thx-pha-him-ban-tha-swang"
+                    "uri": "https://host-chaba.web.app/Producteight"
                   },
                   {
                     "type": "message",
@@ -127,7 +128,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เลือก",
-                    "uri": "https://th.tripadvisor.com/RestaurantsNear-g303923-d4322931-Ban_Tha_Sawang_Silk_Weaving_Village-Surin_Surin_Province.html"
+                    "uri": "https://host-chaba.web.app/serviceeight"
                   },
                   {
                     "type": "message",
