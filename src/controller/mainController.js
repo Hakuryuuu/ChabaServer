@@ -21,61 +21,77 @@ exports.main = async function (req, res) {
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
-                "title": "ปราสาทศีขรภูมิ สุรินทร์",
-                "text": "ปราสาทศีขรภูมิ หรือ ปราสาทระแงง ตั้งอยู่ อำเภอศีขรภูมิ จังหว",
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
+                "title": "ปราสาทศรีขรภูมิ",
+                "text": "Sikhoraphum",
                 "actions": [
                   {
-                    "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationone"
+                    "type": "message",
+                    "label": "รายละเอียดสถานที่",
+                    "text": " เวลาเปิด-ปิด: ปราสาทศีขรภูมิเปิดให้เข้าชมทุกวัน เวลา 08.00-16.30 น.  อัตราค่าเข้าชม : ชาวไทย คนละ 10 บาท ชาวต่างประเทศ 50 บาท"
                   },
                   {
                     "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง"
+                    "label": "ประวัติสถานที่",
+                    "text": "ปราสาทศีขรภูมิ หรือปราสาทระแงง (ชื่อเดิมตั้งตามชื่อตำบล) ตั้งอยู่ที่ตำบลระแงง อำเภอศีขรภูมิจังหวัดสุรินทร์ เชื่อกันว่าสร้างขึ้นประมาณพุทธศตวรรษที่ 17 เป็นปราสาทหินที่มีลักษณะสถาปัตยกรรมผสมกันระหว่างขอมแบบบาปวนกับแบบนครวัด สร้างขึ้นเพื่อบูชาพระศิวะของศาสนาฮินดู "
+                  },
+                  {
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://th.wikipedia.org/wiki/ปราสาทศีขรภูมิ"
+                  }
+                ],
+                "imageBackgroundColor": "#FFFFFF"
+              },
+              {
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
+                "title": "Title",
+                "text": "Text",
+                "actions": [
+                  {
+                    "type": "message",
+                    "label": "Action 1",
+                    "text": "Action 1"
+                  },
+                  {
+                    "type": "message",
+                    "label": "Action 2",
+                    "text": "Action 2"
+                  },
+                  {
+                    "type": "message",
+                    "label": "Action 3",
+                    "text": "Action 3"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/260cc53f99cb82e8d68db1d64d9197da.png",
-                "title": "สินค้าขึ้นชื่อของที่นี่",
-                "text": "ผ้าไหมลายหนอนทอง",
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
+                "title": "Title",
+                "text": "Text",
                 "actions": [
                   {
-                    "type": "uri",
-                    "label": "รายละเอียด",
-                    "uri": "https://host-chaba.web.app/Productone"
+                    "type": "message",
+                    "label": "Action 1",
+                    "text": "Action 1"
                   },
                   {
                     "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
-                  }
-                ]
-              },
-              {
-                "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
-                "title": "Service",
-                "text": "บริการร้านอาหาร และ ที่พัก",
-                "actions": [
-                  {
-                    "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceone"
+                    "label": "Action 2",
+                    "text": "Action 2"
                   },
                   {
                     "type": "message",
-                    "label": "เลือกดูเพิ่มเติม",
-                    "text": "เลือกดูเพิ่มเติม"
+                    "label": "Action 3",
+                    "text": "Action 3"
                   }
                 ]
               }
             ]
           }
+        
         
         },
 
