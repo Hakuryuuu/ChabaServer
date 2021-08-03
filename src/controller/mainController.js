@@ -18,7 +18,7 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "ปราสาทศีขรภูมิ",
+          "altText": "ปราสาทศรี",
           "template": {
             "type": "carousel",
             "columns": [
@@ -91,6 +91,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         },
 
         "014b374550":{
