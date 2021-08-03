@@ -28,9 +28,9 @@ exports.main = async function (req, res) {
                 "text": "Sikhoraphum Castle",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้งปราสาทศีขรภูมิ "
+                    "uri": "https://www.google.com/maps/place/ปราสาทศีขรภูมิ/@14.9445743,103.7961633,17z/data=!3m1!4b1!4m5!3m4!1s0x3117423624777d49:0xace0ac8ccc4d46f6!8m2!3d14.9445743!4d103.798352"
                   },
                   {
                     "type": "message",
@@ -51,9 +51,9 @@ exports.main = async function (req, res) {
                 "text": "Souvenir ",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้งสินค้าใกล้ปราสาทศีขรภูมิ"
+                    "uri": "https://www.google.com/maps/place/กาละแมสดศรีขรภูมิ+ตราปราสาทเดียว/@14.9448126,103.7849399,17z/data=!3m1!4b1!4m5!3m4!1s0x3117425092567181:0x6de552c03f882906!8m2!3d14.9448126!4d103.7871286"
                   },
                   {
                     "type": "message",
@@ -73,9 +73,9 @@ exports.main = async function (req, res) {
                 "text": "Restaurant",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้งร้านอาหารแถวปราสาทศีขรภูมิ"
+                    "uri": "https://www.google.com/maps/search/ร้านอาหารแถวปราสาทศีขรภูมิ/@14.9448126,103.7849399,17z/data=!3m1!4b1"
                   },
                   {
                     "type": "message",
@@ -95,9 +95,9 @@ exports.main = async function (req, res) {
                 "text": "Hostel",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "Action 1"
+                    "uri": "https://www.google.com/maps/search/ที่พักใกล้ปราสาทศีขรภูมิ/@14.9448019,103.717088,12z/data=!3m1!4b1"
                   },
                   {
                     "type": "message",
@@ -113,7 +113,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
-        
+                
         },
 
         "014b374550":{
