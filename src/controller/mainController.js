@@ -18,7 +18,7 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "ปราสาทศีขรภูมิ",
+          "altText": "this is a carousel template",
           "template": {
             "type": "carousel",
             "columns": [
@@ -29,8 +29,8 @@ exports.main = async function (req, res) {
                 "actions": [
                   {
                     "type": "message",
-                    "label": "รายละเอียดสถานที่",
-                    "text": "รายละเอียดสถานที่ปราสาทศีขรภูมิ"
+                    "label": "ที่ตั้ง",
+                    "text": "ที่ตั้งปราสาทศีขรภูมิ "
                   },
                   {
                     "type": "message",
@@ -92,6 +92,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         
         
         
