@@ -75,12 +75,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้งอาหารใกล้ปราสาทศีขรภูมิ"
+                    "text": "ที่ตั้งร้านอาหารแถวปราสาทศีขรภูมิ"
                   },
                   {
                     "type": "message",
                     "label": "ร้านอาหาร ",
-                    "text": "ร้านอาหาร ใกล้ปราสาทศีขรภูมิ"
+                    "text": "ร้านอาหารใกล้ปราสาทศีขรภูมิ"
                   },
                   {
                     "type": "uri",
@@ -95,9 +95,9 @@ exports.main = async function (req, res) {
                 "text": "Hostel",
                 "actions": [
                   {
-                    "type": "uri",
+                    "type": "message",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/travel/hotels/อำเภอศีขรภูมิ?g2lb=2502548,2503771,2503781,4258168,4270442,4306835,4317915,4371334,4401769,4419364,4509341,4518326,4545890,4561952,4590266,4599650,4270859,4284970,4291517&hl=th-TH&gl=th&ssta=1&ap=MAFaoAEKBQjQDxAAIgNUSEIqFgoHCOUPEAgYBBIHCOUPEAgYBRgBKACwAQBYAWABaAFyBAgCGACaASwSKuC4m-C4o-C4suC4quC4suC4l-C4qOC4teC4guC4o-C4oOC4ueC4oeC4tKIBNgoKL20vMDJxOG55MhIo4Lit4Liz4LmA4Lig4LitIOC4qOC4teC4guC4o-C4oOC4ueC4oeC4tJIBAiABaAA&q=ที่พักใกล้ปราสาทศีขรภูมิ&rp=ogEq4Lib4Lij4Liy4Liq4Liy4LiX4Lio4Li14LiC4Lij4Lig4Li54Lih4Li0OAFAAEgC&ictx=1&sa=X&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaTgowEiw6KuC4m-C4o-C4s"
+                    "text": "Locationในปราสาทศีขรภูมิ"
                   },
                   {
                     "type": "message",
@@ -113,8 +113,6 @@ exports.main = async function (req, res) {
               }
             ]
           }
-        
-        
         
         },
 
