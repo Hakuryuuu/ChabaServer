@@ -28,9 +28,9 @@ exports.main = async function (req, res) {
                 "text": "Sikhoraphum Castle",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้งปราสาทศีขรภูมิ "
+                    "uri": "https://www.google.com/maps/dir/13.7234186,100.4762319/ปราสาทศีขรภูมิ/@14.2846716,99.892446,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3117423624777d49:0xace0ac8ccc4d46f6!2m2!1d103.798352!2d14.9445743"
                   },
                   {
                     "type": "message",
@@ -92,6 +92,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         
         
         
