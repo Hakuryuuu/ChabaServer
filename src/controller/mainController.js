@@ -18,7 +18,7 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
             "columns": [
@@ -35,7 +35,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "ประวัติสถานที่",
-                    "text": "ประวัติสถานที่"
+                    "text": "ประวัติปราสาทศีขรภูมิ"
                   },
                   {
                     "type": "uri",
@@ -51,20 +51,19 @@ exports.main = async function (req, res) {
                 "text": "Souvenir ",
                 "actions": [
                   {
-                    "type": "message",
+                    "type": "uri",
                     "label": "ที่ตั้ง",
-                    "text": "ที่ตั้ง สินค้าใกล้ปราสาทศีขรภูมิ "
+                    "uri": "https://www.google.com/maps/dir/13.7234186,100.4762319/ร้านกาละแม+ศีขรภูมิ+ตราปราสาทเดียว+ตั้งอยู่ที่+211-212+ถ.เสรีธิปัตย์+ต.ระแงง+อ.ศีขรภูมิ+จ.สุรินทร์+โทร.044-561009/@14.2846716,99.8864431,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3117425092567181:0x6de552c03f882906!2m2!1d103.7871286!2d14.9448126"
                   },
                   {
-                    "type": "postback",
+                    "type": "message",
                     "label": "ประวัติสินค้า",
-                    "text": "ประวัติสินค้าของปราสาทศีขรภูมิ ",
-                    "data": "Data 2"
+                    "text": "ประวัติสินค้าของปราสาทศีขรภูมิ "
                   },
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://www.brighttv.co.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
+                    "uri": "https://www.brighttv.c mo.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
                   }
                 ]
               },
@@ -76,7 +75,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/dir/14.9815296,102.1181952/14.9455934,103.7990212/@14.933048,101.8322048,8z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
+                    "uri": "https://www.google.com/search?q=ร้านอาหารใกล้ปราสาทศีขรภูมิ&oq=ร้านอาหารใกล้&aqs=chrome.0.69i59j69i57j0i433i512j0i512l5j0i433i512j0i512.9733j0j15&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=5338552131545001391&lqi=ClHguKPguYnguLLguJnguK3guLLguKvguLLguKPguYPguIHguKXguYnguJvguKPguLLguKrguLLguJfguKjguLXguILguKPguKDguLnguKHguLRaWyJV4Lij4LmJ4Liy4LiZIOC4reC4suC4q-C4suC4oyDguYPguIHguKXguYkg4Lib4Lij4Liy4Liq4Liy4LiXIOC4qOC4teC4guC4o-C4oOC4ueC4oeC4tCoCCAOSAQpyZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5SYURkdFQyOW5SUkFCqgEWCggvbS8wMndibRABKggiBGZvb2QoAA&phdesc=umiopEGcxlI&ved=2ahUKEwiuzIiKiZTyAhW-zDgGHXHaAxQQvS4wAXoECAcQNA&rlst=f#rlfi=hd:;si:718088481"
                   },
                   {
                     "type": "message",
@@ -92,6 +91,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         
         
         
