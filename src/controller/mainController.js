@@ -40,7 +40,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://sv1.picz.in.th/images/2021/08/01/2iTwhu.md.jpg"
+                    "uri": "https://th.wikipedia.org/wiki/ปราสาทศีขรภูมิ"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
@@ -63,7 +63,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://www.brighttv.c mo.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
+                    "uri": "https://www.brighttv.co.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
                   }
                 ]
               },
@@ -97,7 +97,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "message",
                     "label": "ที่ตั้ง",
-                    "text": "Locationในปราสาทศีขรภูมิ"
+                    "text": "Action 1"
                   },
                   {
                     "type": "message",
