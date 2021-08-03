@@ -18,59 +18,96 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "ปราสาทศีขรภูมิ",
+          "altText": "this is a carousel template",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/9f87dc7d6ff015bc2750a135109af0d6.jpg",
-                "title": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
-                "text": "ตั้งอยู่ในอำเภอเมือง จังหวัดสุรินทร์ เป็นหมู่บ้านท่องเที่ยวเ",
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
+                "title": "ปราสาทศีขรภูมิ",
+                "text": "Sikhoraphum Castle",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/dir/13.7234186,100.4762319/ปราสาทศีขรภูมิ/@14.2846716,99.892446,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3117423624777d49:0xace0ac8ccc4d46f6!2m2!1d103.798352!2d14.9445743"
                   },
                   {
                     "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง"
+                    "label": "ประวัติสถานที่",
+                    "text": "ประวัติปราสาทศีขรภูมิ"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://sv1.picz.in.th/images/2021/08/01/2iTwhu.md.jpg"
+                  }
+                ],
+                "imageBackgroundColor": "#FFFFFF"
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1c948f6b27775b941abd49e6065661e0.jpg",
+                "title": "สินค้าOTOP ใกล้ปราสาทศีขรภูมิ",
+                "text": "Souvenir ",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/dir/13.7234186,100.4762319/ร้านกาละแม+ศีขรภูมิ+ตราปราสาทเดียว+ตั้งอยู่ที่+211-212+ถ.เสรีธิปัตย์+ต.ระแงง+อ.ศีขรภูมิ+จ.สุรินทร์+โทร.044-561009/@14.2846716,99.8864431,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3117425092567181:0x6de552c03f882906!2m2!1d103.7871286!2d14.9448126"
+                  },
+                  {
+                    "type": "message",
+                    "label": "ประวัติสินค้า",
+                    "text": "ประวัติสินค้าของปราสาทศีขรภูมิ "
+                  },
+                  {
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://www.brighttv.c mo.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/4b88dc05f9bbd8ff96f657e74f526099.jpg",
-                "title": "ผ้าไหมยกทอง",
-                "text": "ผ้าไหมยกทองโบราณบ้านท่าสว่างเป็นสินค้าประจำจังหวัดชื่อดังของ",
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2iT1EZ.md.jpg",
+                "title": "ร้านอาหารใกล้ปราสาทศีขรภูมิ",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือกสินค้า",
-                    "uri": "https://host-chaba.web.app/Producteight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/search?q=ร้านอาหารใกล้ปราสาทศีขรภูมิ&oq=ร้านอาหารใกล้&aqs=chrome.0.69i59j69i57j0i433i512j0i512l5j0i433i512j0i512.9733j0j15&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=5338552131545001391&lqi=ClHguKPguYnguLLguJnguK3guLLguKvguLLguKPguYPguIHguKXguYnguJvguKPguLLguKrguLLguJfguKjguLXguILguKPguKDguLnguKHguLRaWyJV4Lij4LmJ4Liy4LiZIOC4reC4suC4q-C4suC4oyDguYPguIHguKXguYkg4Lib4Lij4Liy4Liq4Liy4LiXIOC4qOC4teC4guC4o-C4oOC4ueC4oeC4tCoCCAOSAQpyZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5SYURkdFQyOW5SUkFCqgEWCggvbS8wMndibRABKggiBGZvb2QoAA&phdesc=umiopEGcxlI&ved=2ahUKEwiuzIiKiZTyAhW-zDgGHXHaAxQQvS4wAXoECAcQNA&rlst=f#rlfi=hd:;si:718088481"
                   },
                   {
                     "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
+                    "label": "ร้านอาหาร ",
+                    "text": "ร้านอาหาร ใกล้ปราสาทศีขรภูมิ"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://www.facebook.com/ร้านเจ๊เหนียง-ใกล้ปราสาทศีขรภูมิ-314893475598491/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d6125fcd738de77ca2747cc8ea6f59ba.jpg",
-                "title": "Service",
-                "text": "ร้านอาหาร และ ที่พัก",
+                "thumbnailImageUrl": "https://www.img.in.th/images/1d96b495165b1f80d8091c63c057ee36.th.jpg",
+                "title": "ที่พักใกล้ปราสาทศีขรภูมิ",
+                "text": "Hostel",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/travel/hotels/อำเภอ ศีขรภูมิ?g2lb=2502548,2503771,2503781,4258168,4270442,4306835,4317915,4371334,4401769,4419364,4509341,4518326,4545890,4561952,4590266,4599650,4270859,4284970,4291517&hl=th-TH&gl=th&ssta=1&ap=MAFaoAEKBQjQDxAAIgNUSEIqFgoHCOUPEAgYBBIHCOUPEAgYBRgBKACwAQBYAWABaAFyBAgCGACaASwSKuC4m-C4o-C4suC4quC4suC4l-C4qOC4teC4guC4o-C4oOC4ueC4oeC4tKIBNgoKL20vMDJxOG55MhIo4Lit4Liz4LmA4Lig4LitIOC4qOC4teC4guC4o-C4oOC4ueC4oeC4tJIBAiABaAA&q=ที่พักใกล้ปราสาทศีขรภูมิ&rp=ogEq4Lib4Lij4Liy4Liq4Liy4LiX4Lio4Li14LiC4Lij4Lig4Li54Lih4Li0OAFAAEgC&ictx=1&sa=X&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaTgowEiw6KuC4m-C4o-C4s"
                   },
                   {
                     "type": "message",
-                    "label": "เลือกเพิ่มเติม",
-                    "text": "เลือกเพิ่มเติม"
+                    "label": "ที่พัก",
+                    "text": "ที่พักใกล้ปราสาทศีขรภูมิ"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://www.paiduaykan.com/hotel/ที่พักสุรินทร์/"
                   }
                 ]
               }
