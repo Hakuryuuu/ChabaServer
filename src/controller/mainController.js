@@ -24,73 +24,75 @@ exports.main = async function (req, res) {
             "columns": [
               {
                 "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
-                "title": "ปราสาทศรีขรภูมิ",
-                "text": "Sikhoraphum",
+                "title": "ปราสาทศีขรภูมิ",
+                "text": "Sikhoraphum Castle",
                 "actions": [
                   {
                     "type": "message",
                     "label": "รายละเอียดสถานที่",
-                    "text": " เวลาเปิด-ปิด: ปราสาทศีขรภูมิเปิดให้เข้าชมทุกวัน เวลา 08.00-16.30 น.  อัตราค่าเข้าชม : ชาวไทย คนละ 10 บาท ชาวต่างประเทศ 50 บาท"
+                    "text": "รายละเอียดสถานที่ปราสาทศีขรภูมิ"
                   },
                   {
                     "type": "message",
                     "label": "ประวัติสถานที่",
-                    "text": "ปราสาทศีขรภูมิ หรือปราสาทระแงง (ชื่อเดิมตั้งตามชื่อตำบล) ตั้งอยู่ที่ตำบลระแงง อำเภอศีขรภูมิจังหวัดสุรินทร์ เชื่อกันว่าสร้างขึ้นประมาณพุทธศตวรรษที่ 17 เป็นปราสาทหินที่มีลักษณะสถาปัตยกรรมผสมกันระหว่างขอมแบบบาปวนกับแบบนครวัด สร้างขึ้นเพื่อบูชาพระศิวะของศาสนาฮินดู "
+                    "text": "ประวัติสถานที่"
                   },
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://th.wikipedia.org/wiki/ปราสาทศีขรภูมิ"
+                    "uri": "https://sv1.picz.in.th/images/2021/08/01/2iTwhu.md.jpg"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
               },
               {
-                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
-                "title": "Title",
-                "text": "Text",
+                "thumbnailImageUrl": "https://www.img.in.th/images/1c948f6b27775b941abd49e6065661e0.jpg",
+                "title": "สินค้าOTOP ใกล้ปราสาทศีขรภูมิ",
+                "text": "Souvenir ",
                 "actions": [
                   {
                     "type": "message",
-                    "label": "Action 1",
-                    "text": "Action 1"
+                    "label": "ที่ตั้ง",
+                    "text": "ที่ตั้ง สินค้าใกล้ปราสาทศีขรภูมิ "
                   },
                   {
-                    "type": "message",
-                    "label": "Action 2",
-                    "text": "Action 2"
+                    "type": "postback",
+                    "label": "ประวัติสินค้า",
+                    "text": "ประวัติสินค้าของปราสาทศีขรภูมิ ",
+                    "data": "Data 2"
                   },
                   {
-                    "type": "message",
-                    "label": "Action 3",
-                    "text": "Action 3"
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://www.brighttv.co.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
-                "title": "Title",
-                "text": "Text",
+                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2iT1EZ.md.jpg",
+                "title": "ร้านอาหารใกล้ปราสาทศีขรภูมิ",
+                "text": "Restaurant",
                 "actions": [
                   {
-                    "type": "message",
-                    "label": "Action 1",
-                    "text": "Action 1"
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/dir/14.9815296,102.1181952/14.9455934,103.7990212/@14.933048,101.8322048,8z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
                   },
                   {
                     "type": "message",
-                    "label": "Action 2",
-                    "text": "Action 2"
+                    "label": "ร้านอาหาร ",
+                    "text": "ร้านอาหาร ใกล้ปราสาทศีขรภูมิ"
                   },
                   {
-                    "type": "message",
-                    "label": "Action 3",
-                    "text": "Action 3"
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://www.facebook.com/ร้านเจ๊เหนียง-ใกล้ปราสาทศีขรภูมิ-314893475598491/"
                   }
                 ]
               }
             ]
           }
+        
         
         
         },
