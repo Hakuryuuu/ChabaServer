@@ -33,14 +33,9 @@ exports.main = async function (req, res) {
                     "uri": "https://www.google.com/maps/place/ปราสาทศีขรภูมิ/@14.9445743,103.7961633,17z/data=!3m1!4b1!4m5!3m4!1s0x3117423624777d49:0xace0ac8ccc4d46f6!8m2!3d14.9445743!4d103.798352"
                   },
                   {
-                    "type": "message",
-                    "label": "ประวัติสถานที่",
-                    "text": "ประวัติปราสาทศีขรภูมิ"
-                  },
-                  {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://th.wikipedia.org/wiki/ปราสาทศีขรภูมิ"
+                    "uri": "https://host-chaba.web.app/home"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
@@ -56,14 +51,9 @@ exports.main = async function (req, res) {
                     "uri": "https://www.google.com/maps/place/กาละแมสดศรีขรภูมิ+ตราปราสาทเดียว/@14.9448126,103.7849399,17z/data=!3m1!4b1!4m5!3m4!1s0x3117425092567181:0x6de552c03f882906!8m2!3d14.9448126!4d103.7871286"
                   },
                   {
-                    "type": "message",
-                    "label": "ประวัติสินค้า",
-                    "text": "ประวัติสินค้าของปราสาทศีขรภูมิ "
-                  },
-                  {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://www.brighttv.co.th/lifestyle/ขนมหวานโบราณ-ขึ้นชื่อ-แห"
+                    "uri": "https://host-chaba.web.app/Productone"
                   }
                 ]
               },
@@ -78,14 +68,9 @@ exports.main = async function (req, res) {
                     "uri": "https://www.google.com/maps/search/ร้านอาหารแถวปราสาทศีขรภูมิ/@14.9448126,103.7849399,17z/data=!3m1!4b1"
                   },
                   {
-                    "type": "message",
-                    "label": "ร้านอาหาร ",
-                    "text": "ร้านอาหารใกล้ปราสาทศีขรภูมิ"
-                  },
-                  {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://www.facebook.com/ร้านเจ๊เหนียง-ใกล้ปราสาทศีขรภูมิ-314893475598491/"
+                    "uri": "https://host-chaba.web.app/serviceone"
                   }
                 ]
               },
@@ -100,20 +85,15 @@ exports.main = async function (req, res) {
                     "uri": "https://www.google.com/maps/search/ที่พักใกล้ปราสาทศีขรภูมิ/@14.9448019,103.717088,12z/data=!3m1!4b1"
                   },
                   {
-                    "type": "message",
-                    "label": "ที่พัก",
-                    "text": "ที่พักใกล้ปราสาทศีขรภูมิ"
-                  },
-                  {
                     "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://www.paiduaykan.com/hotel/ที่พักสุรินทร์/"
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/serviceone"
                   }
                 ]
               }
             ]
           }
-                
+        
         },
 
         "014b374550":{
