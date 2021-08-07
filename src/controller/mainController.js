@@ -98,64 +98,81 @@ exports.main = async function (req, res) {
 
         "014b374550":{
           "type": "template",
-          "altText": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
+          "altText": "this is a carousel template",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/9f87dc7d6ff015bc2750a135109af0d6.jpg",
-                "title": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
-                "text": "ตั้งอยู่ในอำเภอเมือง จังหวัดสุรินทร์ เป็นหมู่บ้านท่องเที่ยวเ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/b0c23235544ddfb44c93a7aba226c9c1.jpg",
+                "title": "ปราสาทช่างปี่",
+                "text": "Chang Bei Castle",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.co.th/maps/dir//WPH2+XQ7+ปราสาทช่างปี่+ตำบล+ช่างปี่+อำเภอ+ศีขรภูมิ+สุรินทร์+32110/@14.9299777,103.7000948,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31175ce893229689:0xce09a6c00f7150a7!2m2!1d103.7019099!2d14.9299002?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง2"
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/4b88dc05f9bbd8ff96f657e74f526099.jpg",
-                "title": "ผ้าไหมยกทอง",
-                "text": "ผ้าไหมยกทองโบราณบ้านท่าสว่างเป็นสินค้าประจำจังหวัดชื่อดังของ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/6e116c6c93d038feacc6bb9595e39156.png",
+                "title": "ร้านอาหารใกล้ปราสาทช่างปี่",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือกสินค้า",
-                    "uri": "https://host-chaba.web.app/Producteight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหารใกล้ปราสาทช่างปี่/@14.8895622,103.5040917,11z/data=!3m1!4b1"
                   },
                   {
-                    "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ2"
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d6125fcd738de77ca2747cc8ea6f59ba.jpg",
-                "title": "Service",
-                "text": "ร้านอาหาร และ ที่พัก",
+                "thumbnailImageUrl": "https://www.img.in.th/images/d619f52d3421e8bd3e703b7ccd6758ca.jpg",
+                "title": "สินค้าOTOPใกล้ปราสาทช่างปี่",
+                "text": "Souvenir ",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.facebook.com/เครื่องเคลือบบ้านช่างปี่-เครื่องปั้นดินเผาสุรินทร์-555733474908954/"
                   },
                   {
-                    "type": "message",
-                    "label": "เลือกเพิ่มเติม",
-                    "text": "เลือกเพิ่มเติม2"
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1344baf8934eb24ba42353b0a34ef3d5.png",
+                "title": "ที่พักใกล้ปราสาทช่างปี่",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ที่พักใกล้ปราสาทช่างปี่/@14.8894771,103.5040911,11z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "ดูเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home"
                   }
                 ]
               }
             ]
           }
+        
         },
 
         "0150ac0335":{
