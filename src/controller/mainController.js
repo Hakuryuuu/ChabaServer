@@ -238,8 +238,69 @@ exports.main = async function (req, res) {
               }
             ]
           }
-        }
+        },
 
+        "0150c1a853":{
+          "type": "template",
+          "altText": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
+          "template": {
+            "type": "carousel",
+            "imageSize": "cover",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/9f87dc7d6ff015bc2750a135109af0d6.jpg",
+                "title": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
+                "text": "ตั้งอยู่ในอำเภอเมือง จังหวัดสุรินทร์ เป็นหมู่บ้านท่องเที่ยวเ",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "อ่านเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/locationeight"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สถานที่ใกล้เคียง",
+                    "text": "สถานที่ใกล้เคียง2"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/4b88dc05f9bbd8ff96f657e74f526099.jpg",
+                "title": "ผ้าไหมยกทอง",
+                "text": "ผ้าไหมยกทองโบราณบ้านท่าสว่างเป็นสินค้าประจำจังหวัดชื่อดังของ",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เลือกสินค้า",
+                    "uri": "https://host-chaba.web.app/Producteight"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สินค้าอื่นๆ",
+                    "text": "สินค้าอื่นๆ2"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/d6125fcd738de77ca2747cc8ea6f59ba.jpg",
+                "title": "Service",
+                "text": "ร้านอาหาร และ ที่พัก",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เลือก",
+                    "uri": "https://host-chaba.web.app/serviceeight"
+                  },
+                  {
+                    "type": "message",
+                    "label": "เลือกเพิ่มเติม",
+                    "text": "เลือกเพิ่มเติม2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
     };
 
     Object.keys(locationLists).map( hwid => {
