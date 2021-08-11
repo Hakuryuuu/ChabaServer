@@ -337,59 +337,75 @@ exports.main = async function (req, res) {
 
         "0150c51f2e":{
           "type": "template",
-          "altText": "ทดสอบ2",
+          "altText": "this is a carousel template",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
-                "title": "ปราสาทศีขรภูมิ สุรินทร์",
-                "text": "ปราสาทศีขรภูมิ หรือ ปราสาทระแงง ตั้งอยู่ อำเภอศีขรภูมิ จังหว",
+                "thumbnailImageUrl": "https://www.img.in.th/images/d52dba45493cd215979c61fff07ce3c2.th.jpg",
+                "title": "วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Phanom Sawai National Park",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/วนอุทยานพนมสวาย/@14.7628696,103.3721328,17z/data=!3m1!4b1!4m5!3m4!1s0x3119fa72354f839d:0xdd30811bf08258a2!8m2!3d14.7628696!4d103.3743215?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/260cc53f99cb82e8d68db1d64d9197da.png",
-                "title": "สินค้าขึ้นชื่อของที่นี่",
-                "text": "ผ้าไหมลายหนอนทอง",
+                "thumbnailImageUrl": "https://www.img.in.th/images/d2fe085f4689bec603c942820bda568d.jpg",
+                "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "รายละเอียด",
-                    "uri": "https://host-chaba.web.app/Productone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.7125947,103.3061936,11.57z?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
-                "title": "Service",
-                "text": "บริการร้านอาหาร และ ที่พัก",
+                "thumbnailImageUrl": "https://www.img.in.th/images/cbca43a531a86ecbad59bf7ca5423ae9.th.jpg",
+                "title": "ของฝากใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ของฝากใกล้+วนอุทยานแห่งชาติพนมสวาย/@14.7758043,102.7435045,9z/data=!3m1!4b1?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "เลือกดูเพิ่มเติม",
-                    "text": "เลือกดูเพิ่มเติม"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/adf4e061d9f56fa774b7a21f955ead2b.jpg",
+                "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.762859,103.3042807,12z/data=!3m1!4b1?hl=th"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               }
