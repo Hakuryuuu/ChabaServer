@@ -11,7 +11,10 @@ exports.main = async function (req, res) {
     let locationHwid = 
     {
       "014ad71cfd":"ปราสาทศีขรภูมิ",
-      "014b374550":"หมู่บ้านทอผ้าไหมบ้านท่าสว่าง"
+      "014b374550":"ปราสาทช่างปี่",
+      "0150ac0335":"",
+      "0150c1a853":"",
+      "":""
     }
 
     let locationLists =
@@ -98,7 +101,7 @@ exports.main = async function (req, res) {
 
         "014b374550":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "ปราสาทช่างปี่",
           "template": {
             "type": "carousel",
             "columns": [
@@ -292,6 +295,68 @@ exports.main = async function (req, res) {
                     "type": "message",
                     "label": "เลือกเพิ่มเติม",
                     "text": "เลือกเพิ่มเติม2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+
+        "0150c51f2e":{
+          "type": "template",
+          "altText": "ทดสอบ2",
+          "template": {
+            "type": "carousel",
+            "imageSize": "cover",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
+                "title": "ปราสาทศีขรภูมิ สุรินทร์",
+                "text": "ปราสาทศีขรภูมิ หรือ ปราสาทระแงง ตั้งอยู่ อำเภอศีขรภูมิ จังหว",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "อ่านเพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/locationone"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สถานที่ใกล้เคียง",
+                    "text": "สถานที่ใกล้เคียง"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/260cc53f99cb82e8d68db1d64d9197da.png",
+                "title": "สินค้าขึ้นชื่อของที่นี่",
+                "text": "ผ้าไหมลายหนอนทอง",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "รายละเอียด",
+                    "uri": "https://host-chaba.web.app/Productone"
+                  },
+                  {
+                    "type": "message",
+                    "label": "สินค้าอื่นๆ",
+                    "text": "สินค้าอื่นๆ"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
+                "title": "Service",
+                "text": "บริการร้านอาหาร และ ที่พัก",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เลือก",
+                    "uri": "https://host-chaba.web.app/serviceone"
+                  },
+                  {
+                    "type": "message",
+                    "label": "เลือกดูเพิ่มเติม",
+                    "text": "เลือกดูเพิ่มเติม"
                   }
                 ]
               }
