@@ -12,16 +12,16 @@ exports.main = async function (req, res) {
     {
       "014ad71cfd":"ปราสาทศีขรภูมิ",
       "014b374550":"ปราสาทช่างปี่",
-      "0150ac0335":"",
+      "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"",
-      "":""
+      "0150c51f2e":""
     }
 
     let locationLists =
     {
         "014ad71cfd":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
             "columns": [
@@ -180,59 +180,75 @@ exports.main = async function (req, res) {
 
         "0150ac0335":{
           "type": "template",
-          "altText": "ทดสอบ",
+          "altText": "อนุสาวรีย์หลวงไชยสุริยง",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/b049e383561d52fbb5c3a6e7ac6ce575.jpg",
-                "title": "ปราสาทศีขรภูมิ สุรินทร์",
-                "text": "ปราสาทศีขรภูมิ หรือ ปราสาทระแงง ตั้งอยู่ อำเภอศีขรภูมิ จังหว",
+                "thumbnailImageUrl": "https://www.img.in.th/images/69c5a9f5809b827ea75ae960a5e80ac5.th.jpg",
+                "title": "อนุสาวรีย์หลวงไชยสุริยง",
+                "text": "Luang Chai Suriya Monument",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/อนุสาวรีย์หลวงไชยสุริยง+เจ้าเมืองศีขรภูมิ/@14.9448293,103.7843472,17z/data=!3m1!4b1!4m5!3m4!1s0x31174251de88a80f:0x2addc12f581ad214!8m2!3d14.9448293!4d103.7865359"
                   },
                   {
-                    "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/260cc53f99cb82e8d68db1d64d9197da.png",
-                "title": "สินค้าขึ้นชื่อของที่นี่",
-                "text": "ผ้าไหมลายหนอนทอง",
+                "thumbnailImageUrl": "https://www.img.in.th/images/a7137ddc721b3d9e5414bde5ef4ef1cb.png",
+                "title": "ร้านอาหารใกล้อนุสาวรีย์หลวงไชยสุริยง",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "รายละเอียด",
-                    "uri": "https://host-chaba.web.app/Productone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหารอนุสาวรีย์หลวงไชยสุริยง+เจ้าเมืองศีขรภูมิ/@14.9376106,103.7836886,16z/data=!3m1!4b1?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/85ecf0433a74a781116632cd8c7cefa8.jpg",
-                "title": "Service",
-                "text": "บริการร้านอาหาร และ ที่พัก",
+                "thumbnailImageUrl": "https://www.img.in.th/images/71fc4a01c90b0c76a65cdf87b04c8af5.th.jpg",
+                "title": "สินค้า OTOP ใกล้อนุสาวรีย์หลวงไชยสุริยง",
+                "text": "Souvenir",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceone"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/ร้านของฝาก+OTop@ศีขรภูมิ/@14.9379616,103.7842354,16.24z/data=!4m9!1m2!2m1!1z4Liq4Li04LiZ4LiE4LmJ4LiyIE9UT1Ag4Lit4LiZ4Li44Liq4Liy4Lin4Lij4Li14Lii4LmM4Lir4Lil4Lin4LiH4LmE4LiK4Lii4Liq4Li44Lij4Li04Lii4LiHIOC5gOC4iOC5ieC4suC5gOC4oeC4t-C4reC4h-C4qOC4teC4guC4o-C4oOC4ueC4oeC4tA!3m5!1s0x3117435aa168fb7b:0x6b99f5bcd6a00b95!8m2!3d14.9384425!4d103.7886813!15sCpEB4Liq4Li04LiZ4LiE4LmJ4LiyIE9UT1Ag4Lit4LiZ4Li44Liq4Liy4Lin4Lij4Li14Lii4LmM4Lir4Lil4Lin4LiH4LmE4LiK4Lii4Liq4Li44Lij4Li04Lii4LiHIOC5gOC4iOC5ieC4suC5gOC4oeC4t-C4reC4h-C4qOC4teC4guC4o-C4oOC4ueC4oeC4tFqZASKWAeC4quC4tOC4meC4hOC5ieC4siBvdG9wIOC4reC4meC4uOC4quC4suC4p-C4o-C4teC4ouC5jCDguKvguKXguKfguIcg4LmE4LiK4LiiIOC4quC4uOC4o-C4tOC4ouC4hyDguYDguIjguYnguLIg4LmA4Lih4Li34Lit4LiHIOC4qOC4teC4guC4o-C4oOC4ueC4oeC4tJIBBXN0b3Jl?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "เลือกดูเพิ่มเติม",
-                    "text": "เลือกดูเพิ่มเติม"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/c8d480e634f91e8974503ef4aefd62c7.th.png",
+                "title": "ที่พักใกล้อนุสาวรีย์หลวงไชยสุริยง",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ที่พักอนุสาวรีย์หลวงไชยสุริยง+เจ้าเมืองศีขรภูมิ/@14.9376106,103.7836886,15.88z?hl=th"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               }
