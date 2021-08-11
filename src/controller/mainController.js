@@ -14,7 +14,7 @@ exports.main = async function (req, res) {
       "014b374550":"ปราสาทช่างปี่",
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
-      "0150c51f2e":""
+      "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์"
     }
 
     let locationLists =
@@ -337,19 +337,19 @@ exports.main = async function (req, res) {
 
         "0150c51f2e":{
           "type": "template",
-          "altText": "this is a carousel template",
+          "altText": "พิพิธภัณฑสถานแห่งชาติสุรินทร์",
           "template": {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d52dba45493cd215979c61fff07ce3c2.th.jpg",
-                "title": "วนอุทยานแห่งชาติพนมสวาย",
-                "text": "Phanom Sawai National Park",
+                "thumbnailImageUrl": "https://www.img.in.th/images/e8e87221202444a107920a8ea402ba28.jpg",
+                "title": "พิพิธภัณฑสถานแห่งชาติสุรินทร์",
+                "text": "Surin National Museum",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/place/วนอุทยานพนมสวาย/@14.7628696,103.3721328,17z/data=!3m1!4b1!4m5!3m4!1s0x3119fa72354f839d:0xdd30811bf08258a2!8m2!3d14.7628696!4d103.3743215?hl=th"
+                    "uri": "https://www.google.com/maps/place/พิพิธภัณฑ์สถานแห่งชาติสุรินทร์/@14.8483478,103.4716596,17z/data=!3m1!4b1!4m5!3m4!1s0x3119e36cae4dcf7f:0xe4e0953081e3c720!8m2!3d14.8483585!4d103.4738515?hl=th"
                   },
                   {
                     "type": "uri",
@@ -359,14 +359,14 @@ exports.main = async function (req, res) {
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d2fe085f4689bec603c942820bda568d.jpg",
-                "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "thumbnailImageUrl": "https://www.img.in.th/images/95cef6538684d6c3bbbcb031348a861a.th.jpg",
+                "title": "ร้านอาหารใกล้พิพิธภัณฑสถานแห่งชาติ",
                 "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.7125947,103.3061936,11.57z?hl=th"
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.8483478,103.4716596,17z/data=!3m1!4b1?hl=th"
                   },
                   {
                     "type": "uri",
@@ -376,14 +376,14 @@ exports.main = async function (req, res) {
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/cbca43a531a86ecbad59bf7ca5423ae9.th.jpg",
-                "title": "ของฝากใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "thumbnailImageUrl": "https://www.img.in.th/images/2730038b2644099e067c44b2b383f51c.jpg",
+                "title": "ของฝากใกล้พิพิธภัณฑสถานแห่งชาติสุรินทร์",
                 "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ของฝากใกล้+วนอุทยานแห่งชาติพนมสวาย/@14.7758043,102.7435045,9z/data=!3m1!4b1?hl=th"
+                    "uri": "https://www.google.com/maps/place/ร้านกุนเชียง+5+ดาว+สาขา+1/@14.7997869,103.3367343,9.69z/data=!4m9!1m2!2m1!1z4LiC4Lit4LiH4Lid4Liy4LiB4Lie4Li04Lie4Li04LiY4Lig4Lix4LiT4LiR4Liq4LiW4Liy4LiZ4LmB4Lir4LmI4LiH4LiK4Liy4LiV4Li04Liq4Li44Lij4Li04LiZ4LiX4Lij4LmM!3m5!1s0x3119e3b665f76c97:0x5f1a9836f74a7da2!8m2!3d14.8846956!4d103.4905672!15sCmnguILguK3guIfguJ3guLLguIHguJ7guLTguJ7guLTguJjguKDguLHguJPguJHguKrguJbguLLguJnguYHguKvguYjguIfguIrguLLguJXguLTguKrguLjguKPguLTguJnguJfguKPguYxacCJu4LiC4Lit4LiHIOC4neC4suC4gSDguJ7guLTguJ7guLTguJjguKDguLHguJPguJHguKrguJbguLLguJkg4LmB4Lir4LmI4LiHIOC4iuC4suC4leC4tCDguKrguLjguKPguLTguJnguJfguKPguYySAQ5zb3V2ZW5pcl9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOWmVVNVVha2gzRUFF?hl=th"
                   },
                   {
                     "type": "uri",
@@ -393,14 +393,14 @@ exports.main = async function (req, res) {
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/adf4e061d9f56fa774b7a21f955ead2b.jpg",
-                "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "thumbnailImageUrl": "https://www.img.in.th/images/6c316e7ead9ce5e1b4e47b4a471f4b12.th.jpg",
+                "title": "ที่พักใกล้พิพิธภัณฑสถานแห่งชาติสุรินทร์",
                 "text": "Hostel",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.762859,103.3042807,12z/data=!3m1!4b1?hl=th"
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.8483471,103.4563387,14z/data=!3m1!4b1?hl=th"
                   },
                   {
                     "type": "uri",
