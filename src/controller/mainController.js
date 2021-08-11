@@ -13,7 +13,7 @@ exports.main = async function (req, res) {
       "014ad71cfd":"ปราสาทศีขรภูมิ",
       "014b374550":"ปราสาทช่างปี่",
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
-      "0150c1a853":"",
+      "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
       "0150c51f2e":""
     }
 
@@ -46,7 +46,7 @@ exports.main = async function (req, res) {
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/1c948f6b27775b941abd49e6065661e0.jpg",
                 "title": "สินค้าOTOP ใกล้ปราสาทศีขรภูมิ",
-                "text": "Souvenir ",
+                "text": "Product ",
                 "actions": [
                   {
                     "type": "uri",
@@ -142,7 +142,7 @@ exports.main = async function (req, res) {
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/d619f52d3421e8bd3e703b7ccd6758ca.jpg",
                 "title": "สินค้าOTOPใกล้ปราสาทช่างปี่",
-                "text": "Souvenir ",
+                "text": "Product ",
                 "actions": [
                   {
                     "type": "uri",
@@ -221,7 +221,7 @@ exports.main = async function (req, res) {
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/71fc4a01c90b0c76a65cdf87b04c8af5.th.jpg",
                 "title": "สินค้า OTOP ใกล้อนุสาวรีย์หลวงไชยสุริยง",
-                "text": "Souvenir",
+                "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
@@ -258,64 +258,81 @@ exports.main = async function (req, res) {
 
         "0150c1a853":{
           "type": "template",
-          "altText": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
+          "altText": "วนอุทยานแห่งชาติพนมสวาย",
           "template": {
             "type": "carousel",
-            "imageSize": "cover",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/9f87dc7d6ff015bc2750a135109af0d6.jpg",
-                "title": "หมู่บ้านทอผ้าไหมบ้านท่าสว่าง",
-                "text": "ตั้งอยู่ในอำเภอเมือง จังหวัดสุรินทร์ เป็นหมู่บ้านท่องเที่ยวเ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/d52dba45493cd215979c61fff07ce3c2.th.jpg",
+                "title": "วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Phanom Sawai National Park",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "อ่านเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/locationeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/วนอุทยานพนมสวาย/@14.7628696,103.3721328,17z/data=!3m1!4b1!4m5!3m4!1s0x3119fa72354f839d:0xdd30811bf08258a2!8m2!3d14.7628696!4d103.3743215?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สถานที่ใกล้เคียง",
-                    "text": "สถานที่ใกล้เคียง2"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/4b88dc05f9bbd8ff96f657e74f526099.jpg",
-                "title": "ผ้าไหมยกทอง",
-                "text": "ผ้าไหมยกทองโบราณบ้านท่าสว่างเป็นสินค้าประจำจังหวัดชื่อดังของ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/d2fe085f4689bec603c942820bda568d.jpg",
+                "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือกสินค้า",
-                    "uri": "https://host-chaba.web.app/Producteight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.7125947,103.3061936,11.57z?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "สินค้าอื่นๆ",
-                    "text": "สินค้าอื่นๆ2"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d6125fcd738de77ca2747cc8ea6f59ba.jpg",
-                "title": "Service",
-                "text": "ร้านอาหาร และ ที่พัก",
+                "thumbnailImageUrl": "https://www.img.in.th/images/cbca43a531a86ecbad59bf7ca5423ae9.th.jpg",
+                "title": "ของฝากใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "เลือก",
-                    "uri": "https://host-chaba.web.app/serviceeight"
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ของฝากใกล้+วนอุทยานแห่งชาติพนมสวาย/@14.7758043,102.7435045,9z/data=!3m1!4b1?hl=th"
                   },
                   {
-                    "type": "message",
-                    "label": "เลือกเพิ่มเติม",
-                    "text": "เลือกเพิ่มเติม2"
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/adf4e061d9f56fa774b7a21f955ead2b.jpg",
+                "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.762859,103.3042807,12z/data=!3m1!4b1?hl=th"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
                   }
                 ]
               }
             ]
           }
+        
         },
 
         "0150c51f2e":{
