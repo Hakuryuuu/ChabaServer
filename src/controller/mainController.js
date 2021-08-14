@@ -20,16 +20,20 @@ exports.main = async function (req, res) {
     let locationLists =
     {
         "014ad71cfd":
-        [
-          {
-            "type": "text",
-            "text": "สวัสดี"
-          },
-          {
-            "type": "text",
-            "text": "สวัสดี2"
-          },
-        ]
+        {
+          "test":
+          [ 
+            {
+              "type": "text",
+              "text": "สวัสดี"
+            },
+            {
+              "type": "text",
+              "text": "สวัสดี2"
+            },
+          ]
+        }
+
       };
 
     
