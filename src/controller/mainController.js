@@ -29,7 +29,7 @@ exports.main = async function (req, res) {
           {
             "type": "text",
             "text": "สวัสดี2"
-          },
+          }
         ]
  
 
