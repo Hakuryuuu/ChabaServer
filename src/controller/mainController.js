@@ -19,10 +19,7 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-        "014ad71cfd":{
-          "text":"สวัสดี"
-
-        },
+        "014ad71cfd":"สวัสดี",
         /* {
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
