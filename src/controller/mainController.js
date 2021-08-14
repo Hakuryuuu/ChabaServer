@@ -19,17 +19,21 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-        /* "014ad71cfd":
-          [ 
+         "014ad71cfd":
             {
               "type": "text",
               "text": "สวัสดี"
             },
-          ]
+            
+          "014ad71cfd":
+            {
+              "type": "text",
+              "text": "สวัสดี2"
+            },
       };
 
-     */
-        "014ad71cfd":{
+     
+       /*  "014ad71cfd":{
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -422,7 +426,7 @@ exports.main = async function (req, res) {
           } 
         }
 
-    };
+    }; */
 
     Object.keys(locationLists).map( hwid => {
         if (hwid == getHwid) {
