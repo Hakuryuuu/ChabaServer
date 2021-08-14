@@ -19,25 +19,17 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-        "014ad71cfd":
-        {
-          "test":
+        /* "014ad71cfd":
           [ 
             {
               "type": "text",
               "text": "สวัสดี"
             },
-            {
-              "type": "text",
-              "text": "สวัสดี2"
-            },
           ]
-        }
-
       };
 
-    
-     /*   "014ad71cfd":{
+     */
+        "014ad71cfd":{
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -114,8 +106,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
-        }
-        }
+        },
 
          "014b374550":{
           "type": "template",
@@ -431,7 +422,7 @@ exports.main = async function (req, res) {
           } 
         }
 
-    };*/
+    };
 
     Object.keys(locationLists).map( hwid => {
         if (hwid == getHwid) {
