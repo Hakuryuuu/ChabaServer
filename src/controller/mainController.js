@@ -23,7 +23,14 @@ exports.main = async function (req, res) {
           "type": "text",
           "text": "สวัสดี"
         },
-        /* "014ad71cfd":{
+        "014b374550":{
+          "type": "text",
+          "text": "สวัสดี2"
+        },
+      };
+
+    
+     /*   "014ad71cfd":{
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -100,10 +107,10 @@ exports.main = async function (req, res) {
               }
             ]
           }
-        
-        }, 
- */
-        "014b374550":{
+        }
+        }
+
+         "014b374550":{
           "type": "template",
           "altText": "ปราสาทช่างปี่",
           "template": {
@@ -414,9 +421,10 @@ exports.main = async function (req, res) {
                 ]
               }
             ]
-          }
+          } 
         }
-    };
+
+    };*/
 
     Object.keys(locationLists).map( hwid => {
         if (hwid == getHwid) {
