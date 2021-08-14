@@ -11,7 +11,6 @@ exports.main = async function (req, res) {
     let locationHwid = 
     {
       "014ad71cfd":"ปราสาทศีขรภูมิ",
-      "014ad71cfd":"Text",
       "014b374550":"ปราสาทช่างปี่",
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
@@ -20,9 +19,11 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-      
         "014ad71cfd":{
-          "text":"สวัสดี",
+          "text":"สวัสดี"
+
+        },
+        /* {
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -100,7 +101,7 @@ exports.main = async function (req, res) {
             ]
           }
         
-        },
+        }, */
 
         "014b374550":{
           "type": "template",
