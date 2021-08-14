@@ -21,9 +21,9 @@ exports.main = async function (req, res) {
     {
         "014ad71cfd":{
           "type": "text",
-          "text": "สวัสดี"
+          "text": "สวัสดีที่นี่ปราสาทศรีขรภูมิ"
         },
-        /* {
+        "014ad71cfd":{
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -101,7 +101,7 @@ exports.main = async function (req, res) {
             ]
           }
         
-        }, */
+        }, 
 
         "014b374550":{
           "type": "template",
