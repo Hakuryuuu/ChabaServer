@@ -19,8 +19,8 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-        "014ad71cfd":
-        {
+        "014ad71cfd":"สวัสดี",
+        /* {
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
@@ -98,7 +98,7 @@ exports.main = async function (req, res) {
             ]
           }
         
-        },
+        }, */
 
         "014b374550":{
           "type": "template",
