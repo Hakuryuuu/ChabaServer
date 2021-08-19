@@ -19,33 +19,14 @@ exports.main = async function (req, res) {
 
     let locationLists =
     {
-      
-        "014ad71cfd":
-        [
-          {
-            "type": "text",
-            "text": "สวัสดี1"
-          },
-          {
-            "type": "text",
-            "text": "สวัสดี2"
-          }
-        ]
- 
-
-      
- 
-      };
-
-     
-       /*  "014ad71cfd":{
+        "014ad71cfd":{
           "type": "template",
           "altText": "ปราสาทศีขรภูมิ",
           "template": {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2i9t8n.md.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/db57fe354c70eaaf06811aa1598b2395.jpg",
                 "title": "ปราสาทศีขรภูมิ",
                 "text": "Sikhoraphum Castle",
                 "actions": [
@@ -57,15 +38,15 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home"
+                    "uri": "https://wed-chaba.web.app/?fbclid=IwAR0NgCg9telUfC-SAmlqYDY5SKag391Udhcqy-VTCGc847GSiAvZ7zg2QPI"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/1c948f6b27775b941abd49e6065661e0.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/cda8f709dcb0f941a138dc739100139a.jpg",
                 "title": "สินค้าOTOP ใกล้ปราสาทศีขรภูมิ",
-                "text": "Product ",
+                "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
@@ -75,12 +56,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/Productone"
+                    "uri": "https://wed-chaba.web.app/สินค้า"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://sv1.picz.in.th/images/2021/08/01/2iT1EZ.md.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/21e5ad2845ae19a56c247570c8e692f9.jpg",
                 "title": "ร้านอาหารใกล้ปราสาทศีขรภูมิ",
                 "text": "Restaurant",
                 "actions": [
@@ -92,12 +73,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/serviceone"
+                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/1d96b495165b1f80d8091c63c057ee36.th.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/380522de0c844d9920abfd3d9f6143de.jpg",
                 "title": "ที่พักใกล้ปราสาทศีขรภูมิ",
                 "text": "Hostel",
                 "actions": [
@@ -108,8 +89,8 @@ exports.main = async function (req, res) {
                   },
                   {
                     "type": "uri",
-                    "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/serviceone"
+                    "label": "เพิ่มเติม",
+                    "uri": "https://wed-chaba.web.app/ที่พัก"
                   }
                 ]
               }
@@ -431,7 +412,7 @@ exports.main = async function (req, res) {
           } 
         }
 
-    }; */
+    }; 
 
     Object.keys(locationLists).map( hwid => {
         if (hwid == getHwid) {
