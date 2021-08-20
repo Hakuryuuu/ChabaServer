@@ -45,7 +45,7 @@ exports.main = async function (req, res) {
               },
               {
                 "thumbnailImageUrl": "https://www.img.in.th/images/cda8f709dcb0f941a138dc739100139a.jpg",
-                "title": "สินค้าOTOP ใกล้ปราสาทศีขรภูมิ",
+                "title": "สินค้าOTOP ",
                 "text": "Product",
                 "actions": [
                   {
@@ -96,6 +96,7 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        
         },
 
          "014b374550":{
@@ -105,70 +106,70 @@ exports.main = async function (req, res) {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/b0c23235544ddfb44c93a7aba226c9c1.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/5b5dad3111927935405bdfbe51eea0a5.jpg",
                 "title": "ปราสาทช่างปี่",
                 "text": "Chang Bei Castle",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.co.th/maps/dir//WPH2+XQ7+ปราสาทช่างปี่+ตำบล+ช่างปี่+อำเภอ+ศีขรภูมิ+สุรินทร์+32110/@14.9299777,103.7000948,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31175ce893229689:0xce09a6c00f7150a7!2m2!1d103.7019099!2d14.9299002?hl=th"
+                    "uri": "https://www.google.com/maps/place/ปราสาทช่างปี่/@14.9299002,103.6997212,17z/data=!3m1!4b1!4m5!3m4!1s0x31175ce893229689:0xce09a6c00f7150a7!8m2!3d14.9299002!4d103.7019099"
                   },
                   {
                     "type": "uri",
-                    "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home"
+                    "label": "เพิ่มเติม",
+                    "uri": "https://wed-chaba.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/6e116c6c93d038feacc6bb9595e39156.png",
+                "thumbnailImageUrl": "https://www.img.in.th/images/445cf0f060cf0674ec7c384989976293.jpg",
                 "title": "ร้านอาหารใกล้ปราสาทช่างปี่",
                 "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ร้านอาหารใกล้ปราสาทช่างปี่/@14.8895622,103.5040917,11z/data=!3m1!4b1"
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.9298975,103.6668903,13z/data=!3m1!4b1"
                   },
                   {
                     "type": "uri",
-                    "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home"
+                    "label": "เพิ่มเติม",
+                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d619f52d3421e8bd3e703b7ccd6758ca.jpg",
-                "title": "สินค้าOTOPใกล้ปราสาทช่างปี่",
-                "text": "Product ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/96676846225512a2959df85de45f3fee.jpg",
+                "title": "สินค้า OTOP ",
+                "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.facebook.com/เครื่องเคลือบบ้านช่างปี่-เครื่องปั้นดินเผาสุรินทร์-555733474908954/"
+                    "uri": "https://www.google.com/maps/place/ศูนย์แสดงและจำหน่ายสินค้าโอทอปสุรินทร์/@14.8842927,103.4883787,15.7z/data=!4m12!1m6!3m5!1s0x3119e3b46a998e87:0x3b44016a0ba95dea!2z4Lio4Li54LiZ4Lii4LmM4LmB4Liq4LiU4LiH4LmB4Lil4Liw4LiI4Liz4Lir4LiZ4LmI4Liy4Lii4Liq4Li04LiZ4LiE4LmJ4Liy4LmC4Lit4LiX4Lit4Lib4Liq4Li44Lij4Li04LiZ4LiX4Lij4LmM!8m2!3d14.8821578!4d103.4938808!3m4!1s0x3119e3b46a998e87:0x3b44016a0ba95dea!8m2!3d14.8821578!4d103.4938808?hl=th"
                   },
                   {
                     "type": "uri",
-                    "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home"
+                    "label": "เพิ่มเติม",
+                    "uri": "https://wed-chaba.web.app/สินค้า"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/1344baf8934eb24ba42353b0a34ef3d5.png",
-                "title": "ที่พักใกล้ปราสาทช่างปี่",
-                "text": "Hostel",
+                "thumbnailImageUrl": "https://www.img.in.th/images/7383c3f8d546251094ca426ee49a6fd5.jpg",
+                "title": "ที่พักใกล้ ปราสาทช่างปี่",
+                "text": "Hotel",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ที่พักใกล้ปราสาทช่างปี่/@14.8894771,103.5040911,11z/data=!3m1!4b1"
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.9299002,103.6997212,17z?hl=th"
                   },
                   {
                     "type": "uri",
-                    "label": "ดูเพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home"
+                    "label": "เพิ่มเติม",
+                    "uri": "https://wed-chaba.web.app/ที่พัก"
                   }
                 ]
               }
@@ -184,7 +185,7 @@ exports.main = async function (req, res) {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/69c5a9f5809b827ea75ae960a5e80ac5.th.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/7a0c2ca80b59b810d680b6ad9fb8ba3a.jpg",
                 "title": "อนุสาวรีย์หลวงไชยสุริยง",
                 "text": "Luang Chai Suriya Monument",
                 "actions": [
@@ -196,12 +197,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/a7137ddc721b3d9e5414bde5ef4ef1cb.png",
+                "thumbnailImageUrl": "https://www.img.in.th/images/50c0feb29e70a77092efdc122edbaab2.jpg",
                 "title": "ร้านอาหารใกล้อนุสาวรีย์หลวงไชยสุริยง",
                 "text": "Restaurant",
                 "actions": [
@@ -213,13 +214,13 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/สินค้า"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/71fc4a01c90b0c76a65cdf87b04c8af5.th.jpg",
-                "title": "สินค้า OTOP ใกล้อนุสาวรีย์หลวงไชยสุริยง",
+                "thumbnailImageUrl": "https://www.img.in.th/images/6873505993358c1cb3bc200288a9ff49.jpg",
+                "title": "สินค้า OTOP ",
                 "text": "Product",
                 "actions": [
                   {
@@ -235,7 +236,7 @@ exports.main = async function (req, res) {
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/c8d480e634f91e8974503ef4aefd62c7.th.png",
+                "thumbnailImageUrl": "https://www.img.in.th/images/3bb4c5b6b8f986a97363b6541cfa2fb5.jpg",
                 "title": "ที่พักใกล้อนุสาวรีย์หลวงไชยสุริยง",
                 "text": "Hostel",
                 "actions": [
@@ -247,12 +248,13 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/ที่พัก"
                   }
                 ]
               }
             ]
           }
+        
         },
 
         "0150c1a853":{
@@ -262,7 +264,7 @@ exports.main = async function (req, res) {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d52dba45493cd215979c61fff07ce3c2.th.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/a5739fb0964db02293f3aa840b128578.md.jpg",
                 "title": "วนอุทยานแห่งชาติพนมสวาย",
                 "text": "Phanom Sawai National Park",
                 "actions": [
@@ -274,30 +276,30 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d2fe085f4689bec603c942820bda568d.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/3e15c2b41cbe35076ce5f4552823e7e8.jpg",
                 "title": "ร้านอาหารใกล้วนอุทยานแห่งชาติพนมสวาย",
                 "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.7125947,103.3061936,11.57z?hl=th"
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.762859,103.3042807,12z"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/cbca43a531a86ecbad59bf7ca5423ae9.th.jpg",
-                "title": "ของฝากใกล้วนอุทยานแห่งชาติพนมสวาย",
+                "thumbnailImageUrl": "https://www.img.in.th/images/b8d74a8620a6a7ed8e828e5c9f3f22ec.jpg",
+                "title": "สินค้า OTOP ",
                 "text": "Product",
                 "actions": [
                   {
@@ -308,24 +310,24 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/สินค้า"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/adf4e061d9f56fa774b7a21f955ead2b.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/c87f6e9d40b5ee4a2f5aa272864eb2a8.jpg",
                 "title": "ที่พักใกล้วนอุทยานแห่งชาติพนมสวาย",
                 "text": "Hostel",
                 "actions": [
                   {
                     "type": "uri",
                     "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.762859,103.3042807,12z/data=!3m1!4b1?hl=th"
+                    "uri": "https://www.google.com/maps/place/โรงแรม+สวนป่ารีสอร์ท/@14.764519,103.3032507,12z/data=!4m12!1m2!2m1!1z4LmC4Lij4LiH4LmB4Lij4Lih!3m8!1s0x3119e36a8ca8a6fb:0xbb373c88ca2954ed!5m2!4m1!1i2!8m2!3d14.8507839!4d103.4760928!15sChLguYLguKPguIfguYHguKPguKGSAQxyZXNvcnRfaG90ZWw"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/ที่พัก"
                   }
                 ]
               }
@@ -341,7 +343,7 @@ exports.main = async function (req, res) {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/e8e87221202444a107920a8ea402ba28.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/5d67cdffb43bb30793bdd6f84030dfbb.md.jpg",
                 "title": "พิพิธภัณฑสถานแห่งชาติสุรินทร์",
                 "text": "Surin National Museum",
                 "actions": [
@@ -353,12 +355,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/95cef6538684d6c3bbbcb031348a861a.th.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/6faa274c235a7a7c94d3b3ba180c3dca.jpg",
                 "title": "ร้านอาหารใกล้พิพิธภัณฑสถานแห่งชาติ",
                 "text": "Restaurant",
                 "actions": [
@@ -370,13 +372,13 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/2730038b2644099e067c44b2b383f51c.jpg",
-                "title": "ของฝากใกล้พิพิธภัณฑสถานแห่งชาติสุรินทร์",
+                "thumbnailImageUrl": "https://www.img.in.th/images/73aaeebc0606687efc86d3e8f283783f.jpg",
+                "title": "สินค้า OTOP ",
                 "text": "Product",
                 "actions": [
                   {
@@ -387,12 +389,12 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/สินค้า"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/6c316e7ead9ce5e1b4e47b4a471f4b12.th.jpg",
+                "thumbnailImageUrl": "https://www.img.in.th/images/8dfeaba3a031f2fabde77daa9179928c.jpg",
                 "title": "ที่พักใกล้พิพิธภัณฑสถานแห่งชาติสุรินทร์",
                 "text": "Hostel",
                 "actions": [
@@ -404,14 +406,13 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://wed-chaba.web.app/ที่พัก"
                   }
                 ]
               }
             ]
-          } 
+          }
         }
-
     }; 
 
     Object.keys(locationLists).map( hwid => {
