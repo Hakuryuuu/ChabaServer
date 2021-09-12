@@ -18,7 +18,8 @@ exports.main = async function (req, res) {
       "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
       "01518ccb72":"ศาลหลักเมือง",
       "01518d2194":"ศูนย์คชศึกษา",
-      "015192bcd0":"วัดบูรพาราม"
+      "015192bcd0":"วัดบูรพาราม",
+      "015194f4d6":"อ่างเก็บน้ำห้วยเสนง"
     }
 
     let locationLists =
@@ -718,6 +719,66 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "015194f4d6":{
+          "type": "template",
+          "altText": "อ่างเก็บน้ำห้วยเสนง",
+          "template": {
+            "type": "carousel",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/424e89e8540c657bf2c7735ddab1b2d1.jpg",
+                "title": "อ่างเก็บน้ำห้วยเสนง",
+                "text": "Huai Senong Reservoir",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/อ่างเก็บน้ำห้วยเสนง/@14.802297,103.4634526,13z/data=!4m9!1m2!2m1!1z4Lit4LmI4Liy4LiH4LmA4LiB4LmH4Lia4LiZ4LmJ4Liz4Lir4LmJ4Lin4Lii4LmA4Liq4LiZ4LiHIOC4quC4uOC4o-C4tOC4meC4l-C4o-C5jA!3m5!1s0x3119d8784366e127:0xf16bd5e2e91ce917!8m2!3d14.811796!4d103.4907618!15sClLguK3guYjguLLguIfguYDguIHguYfguJrguJnguYnguLPguKvguYnguKfguKLguYDguKrguJnguIcg4Liq4Li44Lij4Li04LiZ4LiX4Lij4LmMWlYiVOC4reC5iOC4suC4h-C5gOC4geC5h-C4muC4meC5ieC4syDguKvguYnguKfguKIg4LmA4Liq4LiZ4LiHIOC4quC4uOC4o-C4tOC4meC4l-C4o-C5jJIBEnRvdXJpc3RfYXR0cmFjdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSSmNuTmhhMDVCRUFF"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1b457361fb65361dd2dfa5cbffb73e09.jpg",
+                "title": "ร้านอาหารใกล้อ่างเก็บน้ำ        ห้วยเสนง",
+                "text": "Restaurant",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหารอ่างเก็บน้ําห้วยเสนง+/@14.8022811,103.4634525,13z/data=!3m1!4b1?hl=th"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/6361193d3d3263b6d1ff1f4b7ef673eb.jpg",
+                "title": "ที่พักใกล้อ่างเก็บน้ำห้วยเสนง",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ที่พักใกล้อ่างเก็บน้ำห้วยเสนง/@14.8687375,103.4683057,13z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่ม้ติม",
                     "uri": "https://host-test-19838.web.app/ที่พัก"
                   }
                 ]
