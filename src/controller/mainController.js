@@ -16,7 +16,8 @@ exports.main = async function (req, res) {
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
       "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์",
       "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
-      "01518ccb72":"ศาลหลักเมือง"
+      "01518ccb72":"ศาลหลักเมือง",
+      "01518d2194":"ศูนย์คชศึกษา"
     }
 
     let locationLists =
@@ -568,7 +569,85 @@ exports.main = async function (req, res) {
               }
             ]
           }
+        },
+        "01518d2194":{
+          "type": "template",
+          "altText": "ศูนย์คชศึกษา",
+          "template": {
+            "type": "carousel",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/ce1940a984c47df351f04d2161c50f54.jpg",
+                "title": "พิพิธภัณฑ์ช้าง ศูนย์คชศึกษา ",
+                "text": "Elephant Museum",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/วัดช่างปี่/@14.9303968,103.6951879,17z/data=!3m1!4b1!4m5!3m4!1s0x31175cedfb07e1cd:0x59d6c90f89978a33!8m2!3d14.9303968!4d103.6973766"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/a9bb7f88feb28922fe4d5f772ce80cc6.jpg",
+                "title": "ร้านอาหารใกล้ศูนย์คชศึกษา ",
+                "text": "Restaurant",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@15.2661564,103.4950218,17z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/d8d2dfef1327d78ccb9beea956868a1c.jpg",
+                "title": "สินค้า O-TOP",
+                "text": "Product",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/ศูนย์คชศึกษา/@15.2661564,103.4950218,17z/data=!3m1!4b1!4m5!3m4!1s0x3119d6878630d9cd:0x5baf5b5edad25b1d!8m2!3d15.2661564!4d103.4972105"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/สินค้า"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/40513a8d43a855919f9e1e66f9f41bae.jpg",
+                "title": "ที่พักใกล้ศูนย์คชศึกษา ",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@15.2661455,103.4271697,12z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                  }
+                ]
+              }
+            ]
+          }
         }
+
     }; 
 
     Object.keys(locationLists).map( hwid => {
