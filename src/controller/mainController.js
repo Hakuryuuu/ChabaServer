@@ -15,7 +15,8 @@ exports.main = async function (req, res) {
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
       "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์",
-      "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง"
+      "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
+      "01518ccb72":"ศาลหลักเมือง"
     }
 
     let locationLists =
@@ -480,6 +481,83 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "ที่ตั้ง",
                     "uri": "https://www.google.com/maps/search/โรงแรม/@14.9557139,103.4020362,12z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "01518ccb72":{
+          "type": "template",
+          "altText": "ศาลหลักเมือง",
+          "template": {
+            "type": "carousel",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1e5cec3fdab46441b003cbc2158ec06d.jpg",
+                "title": "ศาลหลังเมือง",
+                "text": "City Court",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/ศาลหลักเมือง+สุรินทร์/@14.8845663,103.4869965,17z/data=!3m1!4b1!4m5!3m4!1s0x3119e3b65a616233:0x5b25ef07fd4a9766!8m2!3d14.8846162!4d103.4892016"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/08a2501cd892e26420d3d30cbd633fa3.jpg",
+                "title": "ร้านอาหารใกล้ศาลหลังเมือง",
+                "text": "Restaurant",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.8845663,103.4869965,17z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/8828d5181ddf4c29e91b43fc5f358251.jpg",
+                "title": "สินค้า O-TOP",
+                "text": "Product",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/ร้านกุนเชียง+5+ดาว+สาขา+1/@14.8851634,103.4895368,17z/data=!4m13!1m7!3m6!1s0x3119e3b5e12359d1:0xc93c22c02c9435e2!2z4LiL4Lit4LiiIOC4p-C4seC4lOC4muC4ueC4o-C4nuC4suC4o-C4suC4oSDguJXguLPguJrguKUg4LmD4LiZ4LmA4Lih4Li34Lit4LiHIOC4reC4s-C5gOC4oOC4reC5gOC4oeC4t-C4reC4h-C4quC4uOC4o-C4tOC4meC4l-C4o-C5jCDguKrguLjguKPguLTguJnguJfguKPguYwgMzIwMDA!3b1!8m2!3d14.8851634!4d103.4917255!3m4!1s0x3119e3b665f76c97:0x5f1a9836f74a7da2!8m2!3d14.8846956!4d103.4905672"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/สินค้า"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/de5c814ef53c61f381d33e1833e01988.jpg",
+                "title": "ที่พักใกล้ศาลหลังเมือง",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.8845663,103.4869965,17z/data=!3m1!4b1"
                   },
                   {
                     "type": "uri",
