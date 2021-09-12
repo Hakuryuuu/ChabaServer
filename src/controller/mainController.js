@@ -14,7 +14,8 @@ exports.main = async function (req, res) {
       "014b374550":"ปราสาทช่างปี่",
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
-      "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์"
+      "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์",
+      "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง"
     }
 
     let locationLists =
@@ -407,6 +408,83 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "เพิ่มเติม",
                     "uri": "https://wed-chaba.web.app/ที่พัก"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "01518a9413":{
+          "type": "template",
+          "altText": "หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
+          "template": {
+            "type": "carousel",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/e2917ce75de25fe75f10098b25ca55cb.jpg",
+                "title": "หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
+                "text": "Ban Tha Sawang",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/หมู่บ้านทอผ้าไหมบ้านท่าสว่าง/@14.9557246,103.4698883,17z/data=!3m1!4b1!4m5!3m4!1s0x3119e143b3a894d1:0x17d3891badc493a8!8m2!3d14.9557246!4d103.472077"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/8fa22240e191b2c39fb8ed521d1e8e1a.jpg",
+                "title": "ร้านอาหารใกล้บ้านท่าสว่าง",
+                "text": "Restaurant",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.9557244,103.4633222,15z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/2faee6e84020f7ca0e9d05b8acfff9be.jpg",
+                "title": "สินค้า O-TOP",
+                "text": "Product",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/Otop+นวัตวิถี+บ้านท่าสว่าง/@14.9557246,103.4698883,17z/data=!4m12!1m6!3m5!1s0x3119e143b3a894d1:0x17d3891badc493a8!2z4Lir4Lih4Li54LmI4Lia4LmJ4Liy4LiZ4LiX4Lit4Lic4LmJ4Liy4LmE4Lir4Lih4Lia4LmJ4Liy4LiZ4LiX4LmI4Liy4Liq4Lin4LmI4Liy4LiH!8m2!3d14.9557246!4d103.472077!3m4!1s0x0:0x7457e299bd3cb10d!8m2!3d14.9564848!4d103.4725692"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/สินค้า"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/5864f1ac381353df0598f1bcb4c82fab.jpg",
+                "title": "ที่พักใกล้บ้านท่าสว่าง",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.9557139,103.4020362,12z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ที่พัก"
                   }
                 ]
               }
