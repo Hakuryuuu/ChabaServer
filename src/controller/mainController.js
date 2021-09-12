@@ -17,7 +17,8 @@ exports.main = async function (req, res) {
       "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์",
       "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
       "01518ccb72":"ศาลหลักเมือง",
-      "01518d2194":"ศูนย์คชศึกษา"
+      "01518d2194":"ศูนย์คชศึกษา",
+      "015192bcd0":"วัดบูรพาราม"
     }
 
     let locationLists =
@@ -636,6 +637,83 @@ exports.main = async function (req, res) {
                     "type": "uri",
                     "label": "ที่ตั้ง",
                     "uri": "https://www.google.com/maps/search/โรงแรม/@15.2661455,103.4271697,12z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "015192bcd0":{
+          "type": "template",
+          "altText": "วัดบูรพาราม",
+          "template": {
+            "type": "carousel",
+            "columns": [
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1b3954b8f21abc8d3353b8c8aac4522c.jpg",
+                "title": "วัดบูรพาราม",
+                "text": "Burapharam Temple",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/วัดบูรพาราม/@14.8851634,103.4895368,17z/data=!4m13!1m7!3m6!1s0x3119e3b5e12359d1:0xc93c22c02c9435e2!2z4LiL4Lit4LiiIOC4p-C4seC4lOC4muC4ueC4o-C4nuC4suC4o-C4suC4oSDguJXguLPguJrguKUg4LmD4LiZ4LmA4Lih4Li34Lit4LiHIOC4reC4s-C5gOC4oOC4reC5gOC4oeC4t-C4reC4h-C4quC4uOC4o-C4tOC4meC4l-C4o-C5jCDguKrguLjguKPguLTguJnguJfguKPguYwgMzIwMDA!3b1!8m2!3d14.8851634!4d103.4917255!3m4!1s0x3119e3b5b169b8a1:0x3615d85ccdf237d7!8m2!3d14.8844173!4d103.4930797"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/f46848b2aa559b55146f736e1dbfa9b4.jpg",
+                "title": "ร้านอาหารใกล้วัดบูรพาราม",
+                "text": "Restaurant",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.8851634,103.4895368,17z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/1a56f0ba44724237e839f4aadf1ee964.jpg",
+                "title": "สินค้า O-TOP",
+                "text": "Product",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/place/ร้านกุนเชียง+5+ดาว+สาขา+1/@14.8851634,103.4895368,17z/data=!4m13!1m7!3m6!1s0x3119e3b5e12359d1:0xc93c22c02c9435e2!2z4LiL4Lit4LiiIOC4p-C4seC4lOC4muC4ueC4o-C4nuC4suC4o-C4suC4oSDguJXguLPguJrguKUg4LmD4LiZ4LmA4Lih4Li34Lit4LiHIOC4reC4s-C5gOC4oOC4reC5gOC4oeC4t-C4reC4h-C4quC4uOC4o-C4tOC4meC4l-C4o-C5jCDguKrguLjguKPguLTguJnguJfguKPguYwgMzIwMDA!3b1!8m2!3d14.8851634!4d103.4917255!3m4!1s0x3119e3b665f76c97:0x5f1a9836f74a7da2!8m2!3d14.8846956!4d103.4905672"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://host-test-19838.web.app/สินค้า"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/a6b8662314afeda7e3c1700660ee4fdc.jpg",
+                "title": "ที่พักใกล้วัดบูรพาราม",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ที่ตั้ง",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.8851634,103.4895368,17z/data=!3m1!4b1"
                   },
                   {
                     "type": "uri",
