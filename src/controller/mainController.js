@@ -43,7 +43,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/?fbclid=IwAR0NgCg9telUfC-SAmlqYDY5SKag391Udhcqy-VTCGc847GSiAvZ7zg2QPI"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ],
                 "imageBackgroundColor": "#FFFFFF"
@@ -61,7 +61,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -78,7 +78,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "ดูเพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
