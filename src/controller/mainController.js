@@ -95,7 +95,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -123,7 +123,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -140,7 +140,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -157,7 +157,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -174,7 +174,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -202,7 +202,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -219,7 +219,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -236,7 +236,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-chaba.web.app/home?fbclid=IwAR3O61KUunRnW82jVqctip37rGvvgOOtG1J_Kg5k72sHkNr5PGWNPLf2Jqs"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -253,7 +253,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -281,7 +281,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -298,7 +298,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -315,7 +315,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -332,7 +332,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -360,7 +360,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -377,7 +377,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -394,7 +394,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -411,7 +411,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://wed-chaba.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -437,7 +437,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -454,7 +454,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -471,7 +471,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -488,7 +488,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -514,7 +514,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -531,7 +531,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -548,7 +548,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -565,7 +565,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -591,7 +591,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -608,7 +608,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -625,7 +625,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -642,7 +642,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -668,7 +668,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -685,7 +685,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -702,7 +702,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/สินค้า"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
                   }
                 ]
               },
@@ -719,7 +719,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
@@ -745,7 +745,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
                   }
                 ]
               },
@@ -762,7 +762,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://host-test-19838.web.app/ร้านอาหาร"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
                   }
                 ]
               },
@@ -779,7 +779,7 @@ exports.main = async function (req, res) {
                   {
                     "type": "uri",
                     "label": "เพิ่ม้ติม",
-                    "uri": "https://host-test-19838.web.app/ที่พัก"
+                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
                   }
                 ]
               }
