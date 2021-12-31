@@ -14,10 +14,10 @@ exports.main = async function (req, res) {
       "014b374550":"ปราสาทช่างปี่",
       "0150ac0335":"อนุสาวรีย์หลวงไชยสุริยง",
       "0150c1a853":"วนอุทยานแห่งชาติพนมสวาย",
-      "0150c51f2e":"พิพิธภัณฑสถานแห่งชาติสุรินทร์",
+      "0150c51f2e":"อนุสาวรีย์ท้าวสุรนารี (ย่าโม)",
       "01518a9413":"หมู่บ้านผ้าไหมยกทองโบราณบ้านท่าสว่าง",
       "01518ccb72":"ศาลหลักเมือง",
-      "01518d2194":"ศูนย์คชศึกษา",
+      "01518d2194":"วัดศาลาลอย",
       "015192bcd0":"วัดบูรพาราม",
       "015194f4d6":"อ่างเก็บน้ำห้วยเสนง"
     }
@@ -343,75 +343,75 @@ exports.main = async function (req, res) {
 
         "0150c51f2e":{
           "type": "template",
-          "altText": "พิพิธภัณฑสถานแห่งชาติสุรินทร์",
+          "altText": "อนุสาวรีย์ท้าวสุรนารี",
           "template": {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/5d67cdffb43bb30793bdd6f84030dfbb.md.jpg",
-                "title": "พิพิธภัณฑสถานแห่งชาติสุรินทร์",
-                "text": "Surin National Museum",
+                "thumbnailImageUrl": "https://www.img.in.th/images/e0f40b27bcc0ff2da811161c2838f7c1.png",
+                "title": "อนุสาวรีย์ท้าวสุรนารี (ย่าโม)",
+                "text": "Thao Suranari Monument",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/place/พิพิธภัณฑ์สถานแห่งชาติสุรินทร์/@14.8483478,103.4716596,17z/data=!3m1!4b1!4m5!3m4!1s0x3119e36cae4dcf7f:0xe4e0953081e3c720!8m2!3d14.8483585!4d103.4738515?hl=th"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/place/อนุสาวรีย์ท้าวสุรนารี+(ย่าโม)/@14.9747099,102.0959282,17z/data=!3m1!4b1!4m5!3m4!1s0x31194c9708d394f3:0xf7bc4b80b538e278!8m2!3d14.9747099!4d102.0981169"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
+                    "uri": "https://temporal-studio-310118.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/6faa274c235a7a7c94d3b3ba180c3dca.jpg",
-                "title": "ร้านอาหารใกล้พิพิธภัณฑสถานแห่งชาติ",
-                "text": "Restaurant",
-                "actions": [
-                  {
-                    "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.8483478,103.4716596,17z/data=!3m1!4b1?hl=th"
-                  },
-                  {
-                    "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
-                  }
-                ]
-              },
-              {
-                "thumbnailImageUrl": "https://www.img.in.th/images/73aaeebc0606687efc86d3e8f283783f.jpg",
-                "title": "สินค้า OTOP ",
+                "thumbnailImageUrl": "https://www.img.in.th/images/755a5a566d5362b12013ec8dd731dc36.png",
+                "title": "สินค้าOTOP/ของฝาก",
                 "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/place/ร้านกุนเชียง+5+ดาว+สาขา+1/@14.7997869,103.3367343,9.69z/data=!4m9!1m2!2m1!1z4LiC4Lit4LiH4Lid4Liy4LiB4Lie4Li04Lie4Li04LiY4Lig4Lix4LiT4LiR4Liq4LiW4Liy4LiZ4LmB4Lir4LmI4LiH4LiK4Liy4LiV4Li04Liq4Li44Lij4Li04LiZ4LiX4Lij4LmM!3m5!1s0x3119e3b665f76c97:0x5f1a9836f74a7da2!8m2!3d14.8846956!4d103.4905672!15sCmnguILguK3guIfguJ3guLLguIHguJ7guLTguJ7guLTguJjguKDguLHguJPguJHguKrguJbguLLguJnguYHguKvguYjguIfguIrguLLguJXguLTguKrguLjguKPguLTguJnguJfguKPguYxacCJu4LiC4Lit4LiHIOC4neC4suC4gSDguJ7guLTguJ7guLTguJjguKDguLHguJPguJHguKrguJbguLLguJkg4LmB4Lir4LmI4LiHIOC4iuC4suC4leC4tCDguKrguLjguKPguLTguJnguJfguKPguYySAQ5zb3V2ZW5pcl9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOWmVVNVVha2gzRUFF?hl=th"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/place/เตียหงี่เฮียง+เจ้าสัว+หน้าย่าโม/@14.9747099,102.0959282,17z/data=!4m9!1m2!2m1!1z4LiC4Lit4LiH4Lid4Liy4LiB4Lit4LiZ4Li44Liq4Liy4Lin4Lij4Li14Lii4LmM4LiX4LmJ4Liy4Lin4Liq4Li44Lij4LiZ4Liy4Lij4Li1!3m5!1s0x31194d15628c429d:0xdaf023ee6a8272be!8m2!3d14.9746485!4d102.0978837!15sClHguILguK3guIfguJ3guLLguIHguK3guJnguLjguKrguLLguKfguKPguLXguKLguYzguJfguYnguLLguKfguKrguLjguKPguJnguLLguKPguLVaWCJW4LiC4Lit4LiHIOC4neC4suC4gSDguK3guJnguLjguKrguLLguKfguKPguLXguKLguYwg4LiX4LmJ4Liy4LinIOC4quC4uOC4oyDguJnguLLguKPguLWSAQ1nZW5lcmFsX3N0b3Jl"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
+                    "uri": "https://temporal-studio-310118.web.app/สินค้าแนะนำ"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/8dfeaba3a031f2fabde77daa9179928c.jpg",
-                "title": "ที่พักใกล้พิพิธภัณฑสถานแห่งชาติสุรินทร์",
-                "text": "Hostel",
+                "thumbnailImageUrl": "https://www.img.in.th/images/104f006bcf6232c09365da08d305f9f0.jpg",
+                "title": "ร้านอาหาร",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.8483471,103.4563387,14z/data=!3m1!4b1?hl=th"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.9747099,102.0959282,17z/data=!3m1!4b1"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
+                    "uri": "https://temporal-studio-310118.web.app/ร้านอาหารแนะนำ"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/07138e8af572930d2a4e5ad5e10c2d95.png",
+                "title": "ที่พัก/โรงแรม",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.9747099,102.0959282,17z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://temporal-studio-310118.web.app/ที่พักแนะนำ"
                   }
                 ]
               }
@@ -574,75 +574,75 @@ exports.main = async function (req, res) {
         },
         "01518d2194":{
           "type": "template",
-          "altText": "ศูนย์คชศึกษา",
+          "altText": "วัดศาลาลอย",
           "template": {
             "type": "carousel",
             "columns": [
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/ce1940a984c47df351f04d2161c50f54.jpg",
-                "title": "พิพิธภัณฑ์ช้าง ศูนย์คชศึกษา ",
-                "text": "Elephant Museum",
+                "thumbnailImageUrl": "https://www.img.in.th/images/ded442d9734e5d9974292f2a293086d4.jpg",
+                "title": "วัดศาลาลอย",
+                "text": "Sala Loi Temple",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/place/วัดช่างปี่/@14.9303968,103.6951879,17z/data=!3m1!4b1!4m5!3m4!1s0x31175cedfb07e1cd:0x59d6c90f89978a33!8m2!3d14.9303968!4d103.6973766"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/place/วัดศาลาลอย/@14.9806479,102.1144833,17z/data=!3m1!4b1!4m5!3m4!1s0x31194c875b77f3b5:0x274c663ee5e8dbfb!8m2!3d14.9806585!4d102.1165076"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/"
+                    "uri": "https://temporal-studio-310118.web.app/"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/a9bb7f88feb28922fe4d5f772ce80cc6.jpg",
-                "title": "ร้านอาหารใกล้ศูนย์คชศึกษา ",
-                "text": "Restaurant",
-                "actions": [
-                  {
-                    "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@15.2661564,103.4950218,17z/data=!3m1!4b1"
-                  },
-                  {
-                    "type": "uri",
-                    "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3"
-                  }
-                ]
-              },
-              {
-                "thumbnailImageUrl": "https://www.img.in.th/images/d8d2dfef1327d78ccb9beea956868a1c.jpg",
-                "title": "สินค้า O-TOP",
+                "thumbnailImageUrl": "https://www.img.in.th/images/1e56c47308d7626beb29fc400f6d9a73.jpg",
+                "title": "สินค้าOTOP/ของฝาก",
                 "text": "Product",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/place/ศูนย์คชศึกษา/@15.2661564,103.4950218,17z/data=!3m1!4b1!4m5!3m4!1s0x3119d6878630d9cd:0x5baf5b5edad25b1d!8m2!3d15.2661564!4d103.4972105"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/place/ผัดหมี่โคราช+ตรา+ธันยธรณ์/@14.9723562,102.1067156,15z/data=!4m9!1m2!2m1!1z4LiC4Lit4LiH4Lid4Liy4LiB4Lin4Lix4LiU4Lio4Liy4Lil4Liy4Lil4Lit4Lii!3m5!1s0x31194d435e30e6d3:0xaaddee947cd30399!8m2!3d14.9764476!4d102.1140177!15sCjDguILguK3guIfguJ3guLLguIHguKfguLHguJTguKjguLLguKXguLLguKXguK3guKJaNSIz4LiC4Lit4LiHIOC4neC4suC4gSDguKfguLHguJQg4Lio4Liy4Lil4Liy4Lil4Lit4LiikgENZ3JvY2VyeV9zdG9yZQ"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2"
+                    "uri": "https://temporal-studio-310118.web.app/สินค้าแนะนำ"
                   }
                 ]
               },
               {
-                "thumbnailImageUrl": "https://www.img.in.th/images/40513a8d43a855919f9e1e66f9f41bae.jpg",
-                "title": "ที่พักใกล้ศูนย์คชศึกษา ",
-                "text": "Hostel",
+                "thumbnailImageUrl": "https://www.img.in.th/images/5421ae4dcdd6b2a8f76361f0bd5b55f7.jpg",
+                "title": "ร้านอาหาร",
+                "text": "Restaurant",
                 "actions": [
                   {
                     "type": "uri",
-                    "label": "ที่ตั้ง",
-                    "uri": "https://www.google.com/maps/search/โรงแรม/@15.2661455,103.4271697,12z/data=!3m1!4b1"
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/search/ร้านอาหาร/@14.9806479,102.1144833,17z/data=!3m1!4b1"
                   },
                   {
                     "type": "uri",
                     "label": "เพิ่มเติม",
-                    "uri": "https://chabaweb-304f8.firebaseapp.com/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%81"
+                    "uri": "https://temporal-studio-310118.web.app/ร้านอาหารแนะนำ"
+                  }
+                ]
+              },
+              {
+                "thumbnailImageUrl": "https://www.img.in.th/images/c1f3992bfb927edeea2030798d140200.png",
+                "title": "ที่พัก/โรงแรม",
+                "text": "Hostel",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "เปิดแผนที่",
+                    "uri": "https://www.google.com/maps/search/โรงแรม/@14.9806477,102.1079172,15z/data=!3m1!4b1"
+                  },
+                  {
+                    "type": "uri",
+                    "label": "เพิ่มเติม",
+                    "uri": "https://temporal-studio-310118.web.app/ที่พักแนะนำ"
                   }
                 ]
               }
